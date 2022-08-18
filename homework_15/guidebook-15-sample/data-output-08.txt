@@ -1,0 +1,1 @@
+Failed when check R008, a final vertices has at least one outgoing transition.

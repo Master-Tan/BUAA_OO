@@ -1,0 +1,234 @@
+[
+    {
+        "_type": "UMLModel",
+        "_id": "AAAAAAFF+qBWK6M3Z8Y=",
+        "_parent": {
+            "$ref": "AAAAAAFF+h6SjaM2Hec="
+        },
+        "name": "Model",
+        "ownedElements": [
+            {
+                "_type": "UMLClassDiagram",
+                "_id": "AAAAAAFF+qBtyKM79qY=",
+                "_parent": {
+                    "$ref": "AAAAAAFF+qBWK6M3Z8Y="
+                },
+                "name": "Main",
+                "defaultDiagram": true
+            }
+        ]
+    },
+    {
+        "_type": "UMLCollaboration",
+        "_id": "AAAAAAF8ebE9+aJIZ9I=",
+        "_parent": {
+            "$ref": "AAAAAAFF+h6SjaM2Hec="
+        },
+        "name": "Collaboration1",
+        "ownedElements": [
+            {
+                "_type": "UMLInteraction",
+                "_id": "AAAAAAF8ebE9+aJJBqw=",
+                "_parent": {
+                    "$ref": "AAAAAAF8ebE9+aJIZ9I="
+                },
+                "name": "Interaction1",
+                "ownedElements": [],
+                "messages": [
+                    {
+                        "_type": "UMLMessage",
+                        "_id": "AAAAAAF8ec3iA6L28vw=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8ebE9+aJJBqw="
+                        },
+                        "name": "Login",
+                        "source": {
+                            "$ref": "AAAAAAF8ebb8XqJYX4E="
+                        },
+                        "target": {
+                            "$ref": "AAAAAAF8ebcOFqJ4AfQ="
+                        }
+                    },
+                    {
+                        "_type": "UMLMessage",
+                        "_id": "AAAAAAF8edLSZ6NIl+Y=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8ebE9+aJJBqw="
+                        },
+                        "name": "CreateToken",
+                        "source": {
+                            "$ref": "AAAAAAF8ebcOFqJ4AfQ="
+                        },
+                        "target": {
+                            "$ref": "AAAAAAF8ebcOFqJ4AfQ="
+                        }
+                    },
+                    {
+                        "_type": "UMLMessage",
+                        "_id": "AAAAAAF8edSyrqNvZQ4=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8ebE9+aJJBqw="
+                        },
+                        "name": "Return",
+                        "source": {
+                            "$ref": "AAAAAAF8ebcOFqJ4AfQ="
+                        },
+                        "target": {
+                            "$ref": "AAAAAAF8ebb8XqJYX4E="
+                        },
+                        "messageSort": "reply"
+                    },
+                    {
+                        "_type": "UMLMessage",
+                        "_id": "AAAAAAF8edg03aOJoL0=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8ebE9+aJJBqw="
+                        },
+                        "name": "Request",
+                        "source": {
+                            "$ref": "AAAAAAF8ebb8XqJYX4E="
+                        },
+                        "target": {
+                            "$ref": "AAAAAAF8ebca16KYYjk="
+                        }
+                    },
+                    {
+                        "_type": "UMLMessage",
+                        "_id": "AAAAAAF8edr0w6OjIdU=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8ebE9+aJJBqw="
+                        },
+                        "name": "ConfirmToken",
+                        "source": {
+                            "$ref": "AAAAAAF8ebca16KYYjk="
+                        },
+                        "target": {
+                            "$ref": "AAAAAAF8ebca16KYYjk="
+                        }
+                    },
+                    {
+                        "_type": "UMLMessage",
+                        "_id": "AAAAAAF8edzbMKO8dsw=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8ebE9+aJJBqw="
+                        },
+                        "name": "InvalidRe",
+                        "source": {
+                            "$ref": "AAAAAAF8ebca16KYYjk="
+                        },
+                        "target": {
+                            "$ref": "AAAAAAF8ebb8XqJYX4E="
+                        }
+                    },
+                    {
+                        "_type": "UMLMessage",
+                        "_id": "AAAAAAF8ed9+xaPbWGg=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8ebE9+aJJBqw="
+                        },
+                        "name": "Update",
+                        "source": {
+                            "$ref": "AAAAAAF8ebb8XqJYX4E="
+                        },
+                        "target": {
+                            "$ref": "AAAAAAF8ebb8XqJYX4E="
+                        }
+                    },
+                    {
+                        "_type": "UMLMessage",
+                        "_id": "AAAAAAF8ed+8F6PxLC0=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8ebE9+aJJBqw="
+                        },
+                        "name": "Remake",
+                        "source": {
+                            "$ref": "AAAAAAF8ebb8XqJYX4E="
+                        },
+                        "target": {
+                            "$ref": "AAAAAAF8ebca16KYYjk="
+                        }
+                    },
+                    {
+                        "_type": "UMLMessage",
+                        "_id": "AAAAAAF8eeBGzaQKTuw=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8ebE9+aJJBqw="
+                        },
+                        "name": "Succeed",
+                        "source": {
+                            "$ref": "AAAAAAF8ebca16KYYjk="
+                        },
+                        "target": {
+                            "$ref": "AAAAAAF8ebb8XqJYX4E="
+                        },
+                        "messageSort": "reply"
+                    }
+                ],
+                "participants": [
+                    {
+                        "_type": "UMLLifeline",
+                        "_id": "AAAAAAF8ebb8XqJYX4E=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8ebE9+aJJBqw="
+                        },
+                        "name": "Frontend",
+                        "represent": {
+                            "$ref": "AAAAAAF8ebb8XqJXg9s="
+                        },
+                        "isMultiInstance": false
+                    },
+                    {
+                        "_type": "UMLLifeline",
+                        "_id": "AAAAAAF8ebcOFqJ4AfQ=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8ebE9+aJJBqw="
+                        },
+                        "name": "Confirm",
+                        "represent": {
+                            "$ref": "AAAAAAF8ebcOFqJ3Vrw="
+                        },
+                        "isMultiInstance": false
+                    },
+                    {
+                        "_type": "UMLLifeline",
+                        "_id": "AAAAAAF8ebca16KYYjk=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8ebE9+aJJBqw="
+                        },
+                        "name": "Business",
+                        "represent": {
+                            "$ref": "AAAAAAF8ebca16KXcsU="
+                        },
+                        "isMultiInstance": false
+                    }
+                ]
+            }
+        ],
+        "attributes": [
+            {
+                "_type": "UMLAttribute",
+                "_id": "AAAAAAF8ebb8XqJXg9s=",
+                "_parent": {
+                    "$ref": "AAAAAAF8ebE9+aJIZ9I="
+                },
+                "name": "Role1"
+            },
+            {
+                "_type": "UMLAttribute",
+                "_id": "AAAAAAF8ebcOFqJ3Vrw=",
+                "_parent": {
+                    "$ref": "AAAAAAF8ebE9+aJIZ9I="
+                },
+                "name": "Role2"
+            },
+            {
+                "_type": "UMLAttribute",
+                "_id": "AAAAAAF8ebca16KXcsU=",
+                "_parent": {
+                    "$ref": "AAAAAAF8ebE9+aJIZ9I="
+                },
+                "name": "Role3"
+            }
+        ]
+    }
+]

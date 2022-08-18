@@ -1,0 +1,1 @@
+Failed when check R006, each lifeline must represent an attribute.

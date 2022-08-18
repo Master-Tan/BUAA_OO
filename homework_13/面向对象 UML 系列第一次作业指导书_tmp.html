@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>面向对象 UML 系列第一次作业指导书.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h2 id="%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%AE%BE%E8%AE%A1%E4%B8%8E%E6%9E%84%E9%80%A0%E7%AC%AC%E5%8D%81%E4%B8%89%E6%AC%A1%E4%BD%9C%E4%B8%9A">面向对象设计与构造第十三次作业</h2>
+<p><strong>写在前面：请勿提交官方包代码，仅提交自己实现的类。更不要将官方包的 JML 或代码粘贴到自己的类中，否则以作弊、抄袭论处。</strong></p>
+<h3 id="%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86%E8%AE%AD%E7%BB%83%E7%9B%AE%E6%A0%87">第一部分：训练目标</h3>
+<p>实现一个 UML 解析器，使其支持对 UML 类图的分析，可以通过输入相应的指令来进行相关查询。</p>
+<hr>
+<h3 id="%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86">第二部分：预备知识</h3>
+<p>同学们需要掌握 UML 图的相关知识，以及 <a href="http://staruml.io/">StarUML</a> 的使用方法。在这里给出一些相关参考资料：</p>
+<ul>
+<li><a href="http://gitlab.oo.buaa.edu.cn/2022_public/training/unit-4/training-4/-/blob/main/%E7%AC%AC%E5%9B%9B%E5%8D%95%E5%85%83%E6%89%8B%E5%86%8C.pdf">第四单元手册</a></li>
+</ul>
+<hr>
+<h3 id="%E7%AC%AC%E4%B8%89%E9%83%A8%E5%88%86%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5">第三部分：基本概念</h3>
+<p>此处给出一些后文中将会用到的定义。所有用到的定义都会用**<em>加粗倾斜体</em>**标注。</p>
+<p>如果有需要，你可以在后文遇到**<em>加粗倾斜体</em>**的定义时，再回来查阅对应的概念说明。</p>
+<h4 id="%E4%BC%A0%E5%85%A5%E5%8F%82%E6%95%B0%E4%B8%8E%E8%BF%94%E5%9B%9E%E5%80%BC">传入参数与返回值</h4>
+<p>UML 中操作参数元素 <code>UMLParameter</code> 的 <code>direction</code> 属性决定了它是传入参数还是返回值：</p>
+<ul>
+<li><code>in</code>：传入参数</li>
+<li><code>return</code>：返回值</li>
+</ul>
+<p>在所有的数据中，<code>direction</code> 只会有上述两种类型。</p>
+<h4 id="namedtype">NamedType</h4>
+<p>对于属性和操作中的传入参数而言，<code>NamedType</code> 包括</p>
+<ul>
+<li>Java 语言的八大基本类型（<code>byte</code>/<code>short</code>/<code>int</code>/<code>long</code>/<code>float</code>/<code>double</code>/<code>char</code>/<code>boolean</code>）</li>
+<li><code>String</code></li>
+</ul>
+<p>其余一律视为错误类型。</p>
+<p>对于属性和操作中的返回值而言，<code>NamedType</code> 包括</p>
+<ul>
+<li>Java 语言的八大基本类型（<code>byte</code>/<code>short</code>/<code>int</code>/<code>long</code>/<code>float</code>/<code>double</code>/<code>char</code>/<code>boolean</code>）</li>
+<li><code>String</code></li>
+<li><code>void</code>（实际上，<code>void</code> 也算是一种类型，C/C++/Java 对于这件事也都是这样的定义，<code>void</code> 不等同于无返回值）</li>
+</ul>
+<p>其余一律视为错误类型。</p>
+<h4 id="referencetype">ReferenceType</h4>
+<p>对于属性和操作中的传入参数、返回值而言，<code>ReferenceType</code> 指向已定义的<strong>类</strong>或<strong>接口</strong>，类型名为对应的<strong>类名</strong>或<strong>接口名</strong>。在本单元中，我们保证它是合法的，即 <code>ReferenceType</code> 不可能为错误类型。</p>
+<h4 id="%E7%B1%BB%E5%9E%8B%E7%9B%B8%E5%90%8C">类型相同</h4>
+<p>当两个类型对应的 <code>NameableType</code> 对象（参见官方包中的相关接口）在 <code>Objects.equals()</code> 下为真时，则这两个类型相同。</p>
+<h4 id="%E5%8F%82%E6%95%B0%E5%88%97%E8%A1%A8%E7%9B%B8%E5%90%8C">参数列表相同</h4>
+<p>对于任意两个操作，若它们具有相同数量的<strong>传入参数</strong>，且这两组传入参数之间存在某<strong>一一映射</strong>使得相对应的参数**<em>类型相同</em>**，则这两个操作的参数列表相同。例如 <code>int op(int, Class1, double)</code> 和 <code>String op(double, int, Class1)</code> 的参数列表相同。</p>
+<h4 id="%E9%87%8D%E5%A4%8D%E6%93%8D%E4%BD%9C">重复操作</h4>
+<p>对于任意两个操作，如果它们的<strong>名称相同</strong>，且操作的**<em>参数列表相同</em>**，则它们互为重复操作。</p>
+<h4 id="%E8%80%A6%E5%90%88%E5%BA%A6">耦合度</h4>
+<p>OO 度量指标中的类耦合度（Coupling Between Objects, CBO）最早由 Chidamber 与 Kemerer 于 1994 年提出，并被后人不断完善。在这里，我们采用 Visual Studio 2019 中 <a href="https://docs.microsoft.com/en-us/visualstudio/code-quality/code-metrics-class-coupling?view=vs-2019#ck94">类耦合度指标</a> 的约定，给出本单元中操作的耦合度与属性的耦合度的相关计算规则。</p>
+<p><strong>操作的耦合度</strong>：对于一个类的某个操作，考虑其所有类型为 <code>ReferenceType</code> 的操作参数类型（即元素 <code>UMLParameter</code> 的 <code>type</code> 属性，包括传入参数与返回值）：</p>
+<ul>
+<li>若 <code>ReferenceType</code> 引用的类或接口是当前查询的类，则耦合度不增加，否则耦合度增加 $1$；</li>
+<li>若存在多个 <code>ReferenceType</code> 引用的类或接口相同，则耦合度只会被计算一次，不会重复计算。</li>
+</ul>
+<p><strong>属性的耦合度</strong>：对于一个类，考虑其所有类型为 <code>ReferenceType</code> 的属性类型（即元素 <code>UMLAttribute</code> 的 <code>type</code> 属性）：</p>
+<ul>
+<li>若 <code>ReferenceType</code> 引用的类或接口是当前查询的类，则耦合度不增加，否则耦合度增加 $1$；</li>
+<li>若存在多个 <code>ReferenceType</code> 引用的类或接口相同，则耦合度只会被计算一次，不会重复计算。</li>
+</ul>
+<h4 id="%E7%BB%A7%E6%89%BF%E6%B7%B1%E5%BA%A6">继承深度</h4>
+<p>对于类 X，若 Y 满足：</p>
+<ul>
+<li>X 是 Y 的子类（此处特别定义，X 也是 X 的子类）；</li>
+<li>不存在类 Z，使得 Z 是 Y 的父类；</li>
+</ul>
+<p>则称 Y 是 X 的顶级父类。这里的继承关系只考虑 UML 中存在的 <code>UmlGeneralization</code> 定义的继承关系，而不考虑所有类都默认继承自 <code>Object</code> 这个情况。</p>
+<p>定义继承深度为某类到其顶级父类之间，经过的直接继承次数。例如：若只有两个类 A 与 B，且 A 直接继承 B 时，A 的继承深度为 $1$；若只有一个类 A ，则 A 的继承深度为 $0$。</p>
+<h4 id="%E5%A4%9A%E7%BB%A7%E6%89%BF">多继承</h4>
+<p>对于多继承问题，我们保证在类图数据中，类一定没有多继承，但是接口可能有多继承。</p>
+<hr>
+<h3 id="%E7%AC%AC%E5%9B%9B%E9%83%A8%E5%88%86%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0">第四部分：题目描述</h3>
+<h4 id="%E4%B8%80%E4%BD%9C%E4%B8%9A%E8%A6%81%E6%B1%82">一、作业要求</h4>
+<p>本次作业的程序主干逻辑（包括解析 <code>.mdj</code> 格式的文件为关键数据）均已实现，只需要同学们完成剩下的部分，即：<strong>通过实现官方提供的接口，来实现自己的 UML 分析器</strong>。</p>
+<p>官方的<strong>接口定义源代码</strong>都已在接口源代码文件中给出，各位同学需要实现相应的官方接口，并保证<strong>代码实现功能正确</strong>。</p>
+<p>具体来说，各位同学需要新建一个类，并实现相应的接口方法。</p>
+<p>当然，还需要同学们<strong>在主类中调用官方包的 <code>AppRunner</code> 类</strong>，并载入自己实现的 UML 解析器类，来使得程序完整可运行，具体形式参考本次作业官方包目录下的 <code>README.md</code>。</p>
+<h5 id="%E4%BB%A3%E7%A0%81%E7%BB%93%E6%9E%84%E8%AF%B4%E6%98%8E">代码结构说明</h5>
+<p><code>UserApi</code> 的具体接口规格见官方包的 jar 文件，此处不加赘述。</p>
+<p>除此之外，<code>UserApi</code> 类必须实现一个构造方法</p>
+<pre class="hljs"><code><div><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyImplementation</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">UserApi</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">MyImplementation</span><span class="hljs-params">(UmlElement[] elements)</span></span>;
+}
+</div></code></pre>
+<p>或者</p>
+<pre class="hljs"><code><div><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyImplementation</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">UserApi</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">MyImplementation</span><span class="hljs-params">(UmlElement... elements)</span></span>;
+}
+</div></code></pre>
+<p>构造函数的逻辑为将 <code>elements</code> 数组内的各个 UML 类图元素传入 <code>MyImplementation</code> 类，以备后续解析。</p>
+<p>请确保构造函数正确实现，且类和构造函数均定义为 public。<code>AppRunner</code> 内将自动获取此构造函数进行 <code>UserApi</code> 实例的生成。</p>
+<p>（注：这两个构造方法实际本质上等价，不过后者实际测试使用时的体验会更好，想要了解更多的话可以百度一下，关键词：<code>Java 变长参数</code>）</p>
+<h5 id="%E4%BA%A4%E4%BA%92%E6%A8%A1%E5%BC%8F">交互模式</h5>
+<ul>
+<li>调用上述构造函数，生成一个实例，并将 UML 模型元素传入；</li>
+<li>之后将调用此实例的各个接口方法，以实现基于之前传入的 UML 模型元素的各类查询操作；</li>
+<li>官方接口通过调用方法的返回值，自动生成对应的输出文本。</li>
+</ul>
+<h4 id="%E4%BA%8C%E5%85%B3%E4%BA%8E%E7%B1%BB%E5%9B%BE%E7%9A%84%E6%9F%A5%E8%AF%A2%E6%8C%87%E4%BB%A4">二、关于类图的查询指令</h4>
+<p>各个指令对应的方法名和参数的表示方法详见官方接口说明。</p>
+<h5 id="%E6%8C%87%E4%BB%A4-1%E6%A8%A1%E5%9E%8B%E4%B8%AD%E4%B8%80%E5%85%B1%E6%9C%89%E5%A4%9A%E5%B0%91%E4%B8%AA%E7%B1%BB">指令 1：模型中一共有多少个类</h5>
+<p>输入指令格式：<code>CLASS_COUNT</code></p>
+<p>举例：<code>CLASS_COUNT</code></p>
+<p>输出：</p>
+<ul>
+<li><code>Total class count is x.</code>
+<ul>
+<li>其中 <code>x</code> 为模型中类的总数。</li>
+</ul>
+</li>
+</ul>
+<h5 id="%E6%8C%87%E4%BB%A4-2%E7%B1%BB%E7%9A%84%E5%AD%90%E7%B1%BB%E6%95%B0%E9%87%8F">指令 2：类的子类数量</h5>
+<p>输入指令格式：<code>CLASS_SUBCLASS_COUNT classname</code></p>
+<p>举例：<code>CLASS_SUBCLASS_COUNT Elevator</code></p>
+<p>输出：</p>
+<ul>
+<li><code>Ok, subclass count of class &quot;classname&quot; is x.</code>
+<ul>
+<li>其中 <code>x</code> 为直接继承类 <code>classname</code> 的子类数量；</li>
+</ul>
+</li>
+<li><code>Failed, class &quot;classname&quot; not found.</code>
+<ul>
+<li>不存在名为 <code>classname</code> 的类时，输出上述内容；</li>
+</ul>
+</li>
+<li><code>Failed, duplicated class &quot;classname&quot;.</code>
+<ul>
+<li>存在多个名为 <code>classname</code> 的类时，输出上述内容。</li>
+</ul>
+</li>
+</ul>
+<h5 id="%E6%8C%87%E4%BB%A4-3%E7%B1%BB%E4%B8%AD%E7%9A%84%E6%93%8D%E4%BD%9C%E6%9C%89%E5%A4%9A%E5%B0%91%E4%B8%AA">指令 3：类中的操作有多少个</h5>
+<p>输入指令格式：<code>CLASS_OPERATION_COUNT classname</code></p>
+<p>举例：<code>CLASS_OPERATION_COUNT Elevator</code></p>
+<p>输出：</p>
+<ul>
+<li><code>Ok, operation count of class &quot;classname&quot; is x.</code>
+<ul>
+<li>其中 <code>x</code> 为类 <code>classname</code> 中的操作个数；</li>
+</ul>
+</li>
+<li><code>Failed, class &quot;classname&quot; not found.</code>
+<ul>
+<li>不存在名为 <code>classname</code> 的类时，输出上述内容；</li>
+</ul>
+</li>
+<li><code>Failed, duplicated class &quot;classname&quot;.</code>
+<ul>
+<li>存在多个名为 <code>classname</code> 的类时，输出上述内容。</li>
+</ul>
+</li>
+</ul>
+<p>说明：</p>
+<ul>
+<li>本指令中统计的一律为此类自己定义的操作，不包含继承自其各级父类所定义的操作；</li>
+<li>本指令中统计的无需考虑**<em>重复操作</em><strong>带来的影响。若有多个操作为</strong><em>重复操作</em>**，则这些操作都需要分别计入答案。</li>
+</ul>
+<h5 id="%E6%8C%87%E4%BB%A4-4%E7%B1%BB%E7%9A%84%E6%93%8D%E4%BD%9C%E5%8F%AF%E8%A7%81%E6%80%A7">指令 4：类的操作可见性</h5>
+<p>输入指令格式：<code>CLASS_OPERATION_VISIBILITY classname methodname</code></p>
+<p>举例：<code>CLASS_OPERATION_VISIBILITY Taxi setStatus</code></p>
+<p>输出：</p>
+<ul>
+<li><code>Ok, operation visibility of method &quot;methodname&quot; in class &quot;classname&quot; is public: www, protected: xxx, private: yyy, package-private: zzz.</code>
+<ul>
+<li>其中 <code>www</code>/<code>xxx</code>/<code>yyy</code>/<code>zzz</code> 分别表示类 <code>classname</code> 中，名为 <code>methodname</code> 且实际可见性分别为 <code>public</code>/<code>protected</code>/<code>private</code>/<code>package-private</code> 的操作个数；</li>
+<li>如果类中不存在名为 <code>methodname</code> 的操作，则 <code>www</code>/<code>xxx</code>/<code>yyy</code>/<code>zzz</code> 全部设置为 0；</li>
+</ul>
+</li>
+<li><code>Failed, class &quot;classname&quot; not found.</code>
+<ul>
+<li>不存在名为 <code>classname</code> 的类时，输出上述内容；</li>
+</ul>
+</li>
+<li><code>Failed, duplicated class &quot;classname&quot;.</code>
+<ul>
+<li>存在多个名为 <code>classname</code> 的类时，输出上述内容。</li>
+</ul>
+</li>
+</ul>
+<p>说明：</p>
+<ul>
+<li>本指令中统计的一律为此类自己定义的操作，不包含继承自其各级父类所定义的操作；</li>
+<li>在上一条的前提下，需要统计出全部的名为 <code>methodname</code> 的操作的可见性信息。</li>
+<li>本指令中统计的无需考虑**<em>重复操作</em><strong>带来的影响。若有多个操作为</strong><em>重复操作</em>**，则这些操作都需要分别计入答案。</li>
+</ul>
+<h5 id="%E6%8C%87%E4%BB%A4-5%E7%B1%BB%E7%9A%84%E6%93%8D%E4%BD%9C%E7%9A%84%E8%80%A6%E5%90%88%E5%BA%A6">指令 5：类的操作的耦合度</h5>
+<p>输入指令格式：<code>CLASS_OPERATION_COUPLING_DEGREE classname methodname</code></p>
+<p>举例：<code>CLASS_OPERATION_COUPLING_DEGREE Taxi setStatus</code></p>
+<p>输出：</p>
+<ul>
+<li><code>Ok, method &quot;methodname&quot; in class &quot;classname&quot; has coupling degree: coupling_degree_1, coupling_degree_2, coupling_degree_3.</code>
+<ul>
+<li>此例中，类中名为 <code>methodname</code> 的操作共有 3 个，它们的**<em>操作的耦合度</em><strong>分别为 <code>coupling_degree_1</code>、<code>coupling_degree_2</code>、<code>coupling_degree_3</code>，且这些操作中不存在</strong><em>重复操作</em>**；</li>
+<li>传出列表时可以乱序，官方接口会自动进行排序（但是需要编写者自行保证不重不漏）；</li>
+<li>如果类中不存在名为 <code>methodname</code> 的操作，则传出一个空列表；</li>
+</ul>
+</li>
+<li><code>Failed, class &quot;classname&quot; not found.</code>
+<ul>
+<li>不存在名为 <code>classname</code> 的类时，输出上述内容；</li>
+</ul>
+</li>
+<li><code>Failed, duplicated class &quot;classname&quot;.</code>
+<ul>
+<li>存在多个名为 <code>classname</code> 的类时，输出上述内容；</li>
+</ul>
+</li>
+<li><code>Failed, wrong type of parameters or return value in method &quot;methodname&quot; of class &quot;classname&quot;.</code>
+<ul>
+<li>类 <code>classname</code> 中所有名为 <code>methodname</code> 的操作存在**<em>错误类型</em>**时，输出上述内容；</li>
+</ul>
+</li>
+<li><code>Failed, duplicated method &quot;methodname&quot; in class &quot;classname&quot;.</code>
+<ul>
+<li>类 <code>classname</code> 中所有名为 <code>methodname</code> 的操作存在**<em>重复操作</em>**时，输出上述内容。</li>
+</ul>
+</li>
+</ul>
+<p>说明：</p>
+<ul>
+<li>本指令中统计的一律为此类自己定义的操作，不包含继承自其各级父类所定义的操作；</li>
+<li>如果同时存在**<em>错误类型</em><strong>和</strong><em>重复操作</em><strong>两种异常，按</strong><em>错误类型</em>**异常处理。</li>
+</ul>
+<h5 id="%E6%8C%87%E4%BB%A4-6%E7%B1%BB%E7%9A%84%E5%B1%9E%E6%80%A7%E7%9A%84%E8%80%A6%E5%90%88%E5%BA%A6">指令 6：类的属性的耦合度</h5>
+<p>输入指令格式：<code>CLASS_ATTR_COUPLING_DEGREE classname</code></p>
+<p>举例：<code>CLASS_ATTR_COUPLING_DEGREE Taxi</code></p>
+<p>输出：</p>
+<ul>
+<li><code>Ok, attributes in class &quot;classname&quot; has coupling degree x.</code>
+<ul>
+<li>其中 <code>x</code> 为类 <code>classname</code> 的**<em>属性的耦合度</em>**</li>
+</ul>
+</li>
+<li><code>Failed, class &quot;classname&quot; not found.</code>
+<ul>
+<li>不存在名为 <code>classname</code> 的类时，输出上述内容；</li>
+</ul>
+</li>
+<li><code>Failed, duplicated class &quot;classname&quot;.</code>
+<ul>
+<li>存在多个名为 <code>classname</code> 的类时，输出上述内容。</li>
+</ul>
+</li>
+</ul>
+<p>说明：</p>
+<ul>
+<li>本指令的查询需要考虑继承自其各级父类所定义的属性，但<strong>不需要</strong>考虑实现的接口所定义的属性（无论是直接实现还是通过父类或者接口继承等方式间接实现，都算做实现了接口）；</li>
+<li>本查询中忽略属性名称相同的错误。</li>
+</ul>
+<h5 id="%E6%8C%87%E4%BB%A4-7%E7%B1%BB%E5%AE%9E%E7%8E%B0%E7%9A%84%E5%85%A8%E9%83%A8%E6%8E%A5%E5%8F%A3">指令 7：类实现的全部接口</h5>
+<p>输入指令格式：<code>CLASS_IMPLEMENT_INTERFACE_LIST classname</code></p>
+<p>举例：<code>CLASS_IMPLEMENT_INTERFACE_LIST Taxi</code></p>
+<p>输出：</p>
+<ul>
+<li><code>Ok, implement interfaces of class &quot;classname&quot; are (A, B, C).</code>
+<ul>
+<li>此例中，类 <code>classname</code> 实现了 <code>A</code>、<code>B</code>、<code>C</code> 这 3 个接口；</li>
+<li>无论是直接实现还是通过父类或者接口继承等方式间接实现，都算做实现了接口；</li>
+<li>传出列表时可以乱序，官方接口会自动进行排序（但是需要编写者自行保证不重不漏）；</li>
+<li>如果类 <code>classname</code> 没有实现任何接口，则传出一个空列表；</li>
+</ul>
+</li>
+<li><code>Failed, class &quot;classname&quot; not found.</code>
+<ul>
+<li>不存在名为 <code>classname</code> 的类时，输出上述内容；</li>
+</ul>
+</li>
+<li><code>Failed, duplicated class &quot;classname&quot;.</code>
+<ul>
+<li>存在多个名为 <code>classname</code> 的类时，输出上述内容。</li>
+</ul>
+</li>
+</ul>
+<h5 id="%E6%8C%87%E4%BB%A4-8%E7%B1%BB%E7%9A%84%E7%BB%A7%E6%89%BF%E6%B7%B1%E5%BA%A6">指令 8：类的继承深度</h5>
+<p>输入指令格式：<code>CLASS_DEPTH_OF_INHERITANCE classname</code></p>
+<p>举例：<code>CLASS_DEPTH_OF_INHERITANCE AdvancedTaxi</code></p>
+<p>输出：</p>
+<ul>
+<li><code>Ok, depth of inheritance of class &quot;classname&quot; is x.</code>
+<ul>
+<li>其中 <code>x</code> 为类 <code>classname</code> 的继承深度；</li>
+</ul>
+</li>
+<li><code>Failed, class &quot;classname&quot; not found.</code>
+<ul>
+<li>不存在名为 <code>classname</code> 的类时，输出上述内容；</li>
+</ul>
+</li>
+<li><code>Failed, duplicated class &quot;classname&quot;.</code>
+<ul>
+<li>存在多个名为 <code>classname</code> 的类时，输出上述内容。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="%E7%AC%AC%E4%BA%94%E9%83%A8%E5%88%86%E8%AE%BE%E8%AE%A1%E5%BB%BA%E8%AE%AE">第五部分：设计建议</h3>
+<ul>
+<li>推荐各位同学在课下测试时使用 Junit 单元测试来对自己的程序进行测试
+<ul>
+<li>Junit 是一个单元测试包，<strong>可以通过编写单元测试类和方法，来实现对类和方法实现正确性的快速检查和测试</strong>。还可以查看测试覆盖率以及具体覆盖范围（精确到语句级别），以帮助编程者全面无死角的进行程序功能测试。</li>
+<li>Junit 已在评测机中部署（版本为 Junit4.12，一般情况下确保为 Junit4 即可），所以项目中可以直接包含单元测试类，在评测机上不会有编译问题。</li>
+<li>此外，Junit 对主流 Java IDE（Idea、eclipse 等）均有较为完善的支持，可以自行安装相关插件。推荐两篇博客：
+<ul>
+<li><a href="https://www.cnblogs.com/wangmingshun/p/6411885.html">Idea 下配置 Junit</a></li>
+<li><a href="https://blog.csdn.net/yitengtongweishi/article/details/80715569">Idea 下 Junit 的简单使用</a></li>
+</ul>
+</li>
+<li>感兴趣的同学可以自行进行更深入的探索，百度关键字：<code>Java Junit</code>。</li>
+</ul>
+</li>
+<li>强烈推荐同学们
+<ul>
+<li>去阅读本次的源代码</li>
+<li><strong>好好复习下本次的 ppt，并理清楚各个 <code>UmlElement</code> 数据模型的结构与关系</strong>。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="%E7%AC%AC%E5%85%AD%E9%83%A8%E5%88%86%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E8%AF%B4%E6%98%8E">第六部分：输入/输出说明</h3>
+<p>本次作业将会下发 mdj 文件解析工具、<code>UserApi</code> 类、输入输出接口（实际上为二合一的工具，接口文档会详细说明）和全局测试调用程序，其中输入输出接口、全局测试程序均在官方接口中。</p>
+<ul>
+<li>解析工具用于将 mdj 格式文件解析为输入输出接口可以识别的格式，该格式包含了文件内模型中所有关键信息的元素字典表；</li>
+<li>输入输出接口用于对元素字典表的解析和处理、对查询指令的解析和处理以及对输出信息的处理；</li>
+<li>全局测试调用程序会实例化同学们实现的类，并根据输入接口解析内容调用对应方法，并把返回结果通过输出接口进行输出。</li>
+</ul>
+<p>输入输出接口的具体字符格式已在接口内部定义好，各位同学可以阅读相关代码，这里只给出程序黑箱的字符串输入输出。</p>
+<h4 id="%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E8%A7%84%E5%88%99">输入输出规则</h4>
+<ul>
+<li>输入一律在标准输入中进行，输出一律向标准输出中输出；</li>
+<li>输入内容以指令的形式输入，一条指令占一行，输出以提示语句的形式输出，一句输出占一行；</li>
+<li>输入使用官方提供的输入接口，输出使用官方提供的输出接口；</li>
+<li>输入的整体格式如下：
+<ul>
+<li>由 <code>.mdj</code> 文件解析而来的关键元素表；</li>
+<li><code>END_OF_MODEL</code> 分隔开行；</li>
+<li>指令序列，每条指令一行。</li>
+</ul>
+</li>
+</ul>
+<h4 id="%E6%A0%B7%E4%BE%8B%E8%BE%93%E5%85%A5">样例输入</h4>
+<pre class="hljs"><code><div>{&quot;_parent&quot;:&quot;AAAAAAF8pZCdQzQZZWk=&quot;,&quot;visibility&quot;:&quot;package&quot;,&quot;name&quot;:&quot;Class0&quot;,&quot;_type&quot;:&quot;UMLClass&quot;,&quot;_id&quot;:&quot;AAAAAAF8pZCdTTQaucw=&quot;}
+{&quot;_parent&quot;:&quot;AAAAAAF8pZCdTTQaucw=&quot;,&quot;visibility&quot;:&quot;private&quot;,&quot;name&quot;:&quot;Operation0&quot;,&quot;_type&quot;:&quot;UMLOperation&quot;,&quot;_id&quot;:&quot;AAAAAAF8pZCdTTQbmVc=&quot;}
+{&quot;_parent&quot;:&quot;AAAAAAF8pZCdTTQbmVc=&quot;,&quot;name&quot;:null,&quot;_type&quot;:&quot;UMLParameter&quot;,&quot;_id&quot;:&quot;AAAAAAF8pZCdTTQcAQc=&quot;,&quot;type&quot;:&quot;byte&quot;,&quot;direction&quot;:&quot;return&quot;}
+{&quot;_parent&quot;:&quot;AAAAAAF8pZCdQzQZZWk=&quot;,&quot;visibility&quot;:&quot;package&quot;,&quot;name&quot;:&quot;Class1&quot;,&quot;_type&quot;:&quot;UMLClass&quot;,&quot;_id&quot;:&quot;AAAAAAF8pZCdTTQdhjs=&quot;}
+{&quot;_parent&quot;:&quot;AAAAAAF8pZCdTTQdhjs=&quot;,&quot;name&quot;:null,&quot;_type&quot;:&quot;UMLGeneralization&quot;,&quot;_id&quot;:&quot;AAAAAAF8pZCdTjQifT8=&quot;,&quot;source&quot;:&quot;AAAAAAF8pZCdTTQdhjs=&quot;,&quot;target&quot;:&quot;AAAAAAF8pZCdTTQaucw=&quot;}
+{&quot;_parent&quot;:&quot;AAAAAAF8pZCdTTQdhjs=&quot;,&quot;visibility&quot;:&quot;protected&quot;,&quot;name&quot;:&quot;Attribute1&quot;,&quot;_type&quot;:&quot;UMLAttribute&quot;,&quot;_id&quot;:&quot;AAAAAAF8pZCdTjQkPlM=&quot;,&quot;type&quot;:&quot;byte&quot;}
+{&quot;_parent&quot;:&quot;AAAAAAF8pZCdQzQZZWk=&quot;,&quot;visibility&quot;:&quot;package&quot;,&quot;name&quot;:&quot;Class2&quot;,&quot;_type&quot;:&quot;UMLClass&quot;,&quot;_id&quot;:&quot;AAAAAAF8pZCdTTQeyHs=&quot;}
+{&quot;_parent&quot;:&quot;AAAAAAF8pZCdTTQeyHs=&quot;,&quot;visibility&quot;:&quot;private&quot;,&quot;name&quot;:&quot;Operation1&quot;,&quot;_type&quot;:&quot;UMLOperation&quot;,&quot;_id&quot;:&quot;AAAAAAF8pZCdTTQf1NU=&quot;}
+{&quot;_parent&quot;:&quot;AAAAAAF8pZCdTTQf1NU=&quot;,&quot;name&quot;:null,&quot;_type&quot;:&quot;UMLParameter&quot;,&quot;_id&quot;:&quot;AAAAAAF8pZCdTTQg0v8=&quot;,&quot;type&quot;:&quot;boolean&quot;,&quot;direction&quot;:&quot;return&quot;}
+{&quot;_parent&quot;:&quot;AAAAAAF8pZCdTTQeyHs=&quot;,&quot;name&quot;:null,&quot;_type&quot;:&quot;UMLGeneralization&quot;,&quot;_id&quot;:&quot;AAAAAAF8pZCdTjQjm3k=&quot;,&quot;source&quot;:&quot;AAAAAAF8pZCdTTQeyHs=&quot;,&quot;target&quot;:&quot;AAAAAAF8pZCdTTQh6N0=&quot;}
+{&quot;_parent&quot;:&quot;AAAAAAF8pZCdQzQZZWk=&quot;,&quot;visibility&quot;:&quot;package&quot;,&quot;name&quot;:&quot;Class3&quot;,&quot;_type&quot;:&quot;UMLClass&quot;,&quot;_id&quot;:&quot;AAAAAAF8pZCdTTQh6N0=&quot;}
+{&quot;_parent&quot;:&quot;AAAAAAF8pZCdTTQh6N0=&quot;,&quot;name&quot;:null,&quot;_type&quot;:&quot;UMLAssociation&quot;,&quot;end2&quot;:&quot;AAAAAAF8pZCdTjQn110=&quot;,&quot;end1&quot;:&quot;AAAAAAF8pZCdTjQm1zQ=&quot;,&quot;_id&quot;:&quot;AAAAAAF8pZCdTjQl2RU=&quot;}
+{&quot;reference&quot;:&quot;AAAAAAF8pZCdTTQdhjs=&quot;,&quot;multiplicity&quot;:&quot;&quot;,&quot;_parent&quot;:&quot;AAAAAAF8pZCdTjQl2RU=&quot;,&quot;visibility&quot;:&quot;public&quot;,&quot;name&quot;:&quot;Attribute0&quot;,&quot;_type&quot;:&quot;UMLAssociationEnd&quot;,&quot;aggregation&quot;:&quot;none&quot;,&quot;_id&quot;:&quot;AAAAAAF8pZCdTjQn110=&quot;}
+{&quot;reference&quot;:&quot;AAAAAAF8pZCdTTQh6N0=&quot;,&quot;multiplicity&quot;:&quot;&quot;,&quot;_parent&quot;:&quot;AAAAAAF8pZCdTjQl2RU=&quot;,&quot;visibility&quot;:&quot;package&quot;,&quot;name&quot;:null,&quot;_type&quot;:&quot;UMLAssociationEnd&quot;,&quot;aggregation&quot;:&quot;none&quot;,&quot;_id&quot;:&quot;AAAAAAF8pZCdTjQm1zQ=&quot;}
+END_OF_MODEL
+CLASS_COUNT
+CLASS_SUBCLASS_COUNT Class0
+CLASS_SUBCLASS_COUNT Class1
+CLASS_SUBCLASS_COUNT Class2
+CLASS_SUBCLASS_COUNT Class3
+CLASS_OPERATION_COUPLING_DEGREE Class0 Operation0
+CLASS_OPERATION_COUPLING_DEGREE Class2 Operation1
+</div></code></pre>
+<h4 id="%E6%A0%B7%E4%BE%8B%E8%BE%93%E5%87%BA">样例输出</h4>
+<pre class="hljs"><code><div>Total class count is 4.
+Ok, subclass count of class &quot;Class0&quot; is 1.
+Ok, subclass count of class &quot;Class1&quot; is 0.
+Ok, subclass count of class &quot;Class2&quot; is 0.
+Ok, subclass count of class &quot;Class3&quot; is 1.
+Ok, method &quot;Operation0&quot; in class &quot;Class0&quot; has coupling degree: 0.
+Ok, method &quot;Operation1&quot; in class &quot;Class2&quot; has coupling degree: 0.
+</div></code></pre>
+<h4 id="%E4%B8%80%E5%85%AC%E6%B5%8B%E8%AF%B4%E6%98%8E">一、公测说明</h4>
+<p><code>.mdj</code> 文件内容限制：</p>
+<ul>
+<li>包含且仅包含类图，并在 <code>UMLModel</code> 内进行建模，且每个 <code>UMLModel</code> 内的元素不会引用当前 <code>UMLModel</code> 以外的元素（即关系是一个闭包）；</li>
+<li>原始 <code>.mdj</code> 文件符合 StarUML 规范，可在 StarUML 中正常打开和显示；</li>
+<li><code>.mdj</code> 文件中最多只包含 300 个元素；</li>
+<li><code>.mdj</code> 各元素字段值限制见<strong>第八部分：附录</strong>；</li>
+<li>此外为了方便本次的情况处理，保证所建模的类图模型，均可以在 Oracle Java 8 中正常实现出来。</li>
+</ul>
+<p>输入指令限制：</p>
+<ul>
+<li>最多不超过 200 条指令；</li>
+<li>输入指令满足标准格式。</li>
+</ul>
+<p>测试数据限制：</p>
+<ul>
+<li>所有公测数据不会对接口中定义的方法、类属性（static attribute）、类方法（static method）做任何测试要求。</li>
+</ul>
+<p>测试模式：</p>
+<ul>
+<li>公测均通过标准输入输出进行；</li>
+<li>指令将会通过查询 UML 类图各种信息的正确性，从而测试 UML 解析器各个接口的实现正确性；</li>
+<li>对于任何满足基本数据限制的输入，程序都应该保证不会异常退出，如果出现问题则视为未通过该测试点；</li>
+<li>程序的最大运行 CPU 时间为 2s，保证强测数据有一定梯度。</li>
+</ul>
+<h4 id="%E4%BA%8C%E4%BA%92%E6%B5%8B%E8%AF%B4%E6%98%8E">二、互测说明</h4>
+<p>本次作业<strong>不设置互测环节</strong>。针对本次作业提交的代码实现，课程将使用公测 + bug 修复的黑箱测试模式。</p>
+<hr>
+<h3 id="%E7%AC%AC%E4%B8%83%E9%83%A8%E5%88%86%E6%8F%90%E7%A4%BA%E4%B8%8E%E8%AD%A6%E7%A4%BA">第七部分：提示与警示</h3>
+<h4 id="%E4%B8%80%E6%8F%90%E7%A4%BA">一、提示</h4>
+<ul>
+<li>本次作业中可以自行组织工程结构。任意新增 <code>java</code> 代码文件。只需要保证 <code>UserApi</code> 类的继承与实现即可。</li>
+<li><strong>关于本次作业解析器类的设计具体细节，本指导书中均不会进行过多描述，请自行去官方包开源仓库中查看接口的规格，并依据规格进行功能的具体实现</strong>，必要时也可以查看 AppRunner 的代码实现。关于官方包的使用方法，可以去查看开源库的<code>README.md</code>。</li>
+<li><strong>如果同时满足多个异常，在查询上层模型发生“异常”后，我们自然不该再去查询这个“异常层次”的下层次模型。</strong></li>
+<li><a href="http://gitlab.oo.buaa.edu.cn/2022_public/guidebook/homework_13">开源库地址</a></li>
+</ul>
+<h4 id="%E4%BA%8C%E8%AD%A6%E7%A4%BA">二、警示</h4>
+<ul>
+<li><strong>不要试图通过反射机制来对官方接口进行操作</strong>，我们有办法进行筛查。此外，如果发现有人试图通过反射等手段 hack 输出接口的话，请邮件 <code>18374457@buaa.edu.cn</code> 或使用微信向助教进行举报，<strong>经核实后，将直接作为无效作业处理</strong>。</li>
+</ul>
+<hr>
+<h3 id="%E7%AC%AC%E5%85%AB%E9%83%A8%E5%88%86%E9%99%84%E5%BD%95">第八部分：附录</h3>
+<h4 id="%E6%A0%87%E5%87%86%E8%BE%93%E5%85%A5%E9%99%90%E5%88%B6%E8%AF%B4%E6%98%8E">标准输入限制说明</h4>
+<p>下面给出了标准输入在经过官方接口转换后生成的各种对象中各种字段的格式限制。</p>
+<p>首先，对所有 <strong><code>UmlElement</code></strong> 子类以及所有实现 <strong><code>NameableType</code></strong> 接口的类的以下字段有通用规定，不再在后面赘述：</p>
+<ul>
+<li>所有的 <code>id</code> 字段都是不为 <code>null</code> 的字符串，且在主函数中传入的 <code>UmlElement</code> 列表中唯一。</li>
+<li>除额外说明，所有的 <code>name</code> 字段<strong>都不作任何保证</strong>，即均可能为 <code>null</code>，或空字符串 <code>&quot;&quot;</code>，或有其他内容的字符串。</li>
+<li>所有的 <code>visibility</code> 字段都是不为 <code>null</code> 的枚举对象。</li>
+<li>若字段 X 的格式说明是 &quot;<strong><em>None</em></strong>&quot;：<strong>对该字段不作任何保证</strong>，可能为 <code>null</code> 或者该类型的对象。</li>
+</ul>
+<p>有某些字段是代表指向其他 <code>UmlElement</code> 的字符串格式的 ID，如 <code>parentId</code>、<code>end1</code>、<code>source</code> 等等，为了简洁地说明特做出以下规定：</p>
+<ul>
+<li>若某 <code>String</code> 类型字段 S 的格式说明形如 &quot;<strong><em>UmlOperation</em></strong>&quot; : 则 S 不为 <code>null</code>，且在传入的 <code>UmlElement</code> 列表中存在唯一一个 <code>id</code> 等于 S 的对象，且该对象的类型是 <code>UmlOperation</code>。</li>
+<li>若某 <code>String</code> 类型字段 S 的格式说明形如 &quot;<strong><em>UmlClass | UmlInterface</em></strong>&quot;：则 S 不为 <code>null</code>，且在传入的 <code>UmlElement</code> 列表中存在唯一一个 <code>id</code> 等于 S 的值的对象，且该对象的类型是 <code>UmlClass</code> <strong>或者</strong> <code>UmlInterface</code>。</li>
+</ul>
+<h4 id="uml-%E7%B1%BB%E5%9B%BE%E7%9B%B8%E5%85%B3%E5%85%83%E7%B4%A0%E6%A0%BC%E5%BC%8F%E9%99%90%E5%88%B6">UML 类图相关元素格式限制</h4>
+<h5 id="umlclass">UmlClass</h5>
+<ul>
+<li>parentId：<strong><em>None</em></strong></li>
+</ul>
+<h5 id="umloperation">UmlOperation</h5>
+<ul>
+<li>parentId：<strong><em>UmlClass</em></strong></li>
+</ul>
+<h5 id="umlattribute">UmlAttribute</h5>
+<ul>
+<li>parentId：<strong><em>UmlClass | UmlInterface</em></strong></li>
+<li>type：NotNull</li>
+</ul>
+<h5 id="umlparameter">UmlParameter</h5>
+<ul>
+<li>parentId：<strong><em>UmlOperation</em></strong></li>
+<li>type：NotNull</li>
+<li>direction： IN | RETURN</li>
+</ul>
+<h5 id="referencetype">ReferenceType</h5>
+<ul>
+<li>referenceId：<strong><em>UmlClass | UmlInterface</em></strong></li>
+</ul>
+<h5 id="umlassociation">UmlAssociation</h5>
+<ul>
+<li>parentId：<strong><em>None</em></strong></li>
+<li>end2：<strong><em>UmlAssociationEnd</em></strong></li>
+<li>end1：<strong><em>UmlAssociationEnd</em></strong></li>
+</ul>
+<h5 id="umlassociaitonend">UmlAssociaitonEnd</h5>
+<ul>
+<li>parentId：<strong><em>UmlAssociation</em></strong></li>
+<li>reference：<strong><em>UmlClass | UmlInterface</em></strong></li>
+<li>multiplicity：NotNull</li>
+<li>aggregation：NotNull</li>
+</ul>
+<h5 id="umlinterface">UmlInterface</h5>
+<ul>
+<li>parentId：<strong><em>None</em></strong></li>
+</ul>
+<h5 id="umlinterfacerealization">UmlInterfaceRealization</h5>
+<ul>
+<li>parentId：<strong><em>None</em></strong></li>
+<li>source：<strong><em>UmlClass</em></strong></li>
+<li>target：<strong><em>UmlInterface</em></strong></li>
+</ul>
+<h5 id="umlgeneralization">UmlGeneralization</h5>
+<ul>
+<li>parentId：<strong><em>None</em></strong></li>
+<li>source：<strong><em>UmlClass | UmlInterface</em></strong></li>
+<li>target：<strong><em>UmlClass | UmlInterface</em></strong></li>
+<li>注：source 和 target 指向的元素类型一定相同。</li>
+</ul>
+
+</body>
+</html>

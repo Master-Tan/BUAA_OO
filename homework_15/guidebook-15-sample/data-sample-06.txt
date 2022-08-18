@@ -1,0 +1,10 @@
+{"_parent":"AAAAAAFF+h6SjaM2Hec=","name":"Collaboration1","_type":"UMLCollaboration","_id":"AAAAAAF8guwXU90WX1k="}
+{"_parent":"AAAAAAF8guwXU90WX1k=","visibility":"public","name":"Interaction1","_type":"UMLInteraction","_id":"AAAAAAF8guwXVN0XJSI="}
+{"_parent":"AAAAAAF8guwXVN0XJSI=","visibility":"public","name":"Lifeline2","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAF8gux5yN1UsyE=","represent":"AAAAAAF8gux5x91TVOY="}
+{"_parent":"AAAAAAF8guwXU90WX1k=","visibility":"public","name":"Role2","_type":"UMLAttribute","_id":"AAAAAAF8gux5x91TVOY=","type":""}
+{"_parent":"AAAAAAFF+h6SjaM2Hec=","name":"Collaboration2","_type":"UMLCollaboration","_id":"AAAAAAF8guwkXN0lXl4="}
+{"_parent":"AAAAAAF8guwkXN0lXl4=","visibility":"public","name":"Interaction1","_type":"UMLInteraction","_id":"AAAAAAF8guwkXN0mj+M="}
+{"_parent":"AAAAAAF8guwkXN0mj+M=","visibility":"public","name":"Lifeline1","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAF8guxc2t01Fcs=","represent":"AAAAAAF8gux5x91TVOY="}
+{"_parent":"AAAAAAF8guwkXN0lXl4=","visibility":"public","name":"Role1","_type":"UMLAttribute","_id":"AAAAAAF8guxc2t00CM8=","type":""}
+END_OF_MODEL
+CLASS_COUNT

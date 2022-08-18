@@ -1,0 +1,12 @@
+{"_parent":"AAAAAAFF+h6SjaM2Hec=","name":"Collaboration1","_type":"UMLCollaboration","_id":"AAAAAAF8gu2STRu3Nkk="}
+{"_parent":"AAAAAAF8gu2STRu3Nkk=","visibility":"public","name":"Interaction1","_type":"UMLInteraction","_id":"AAAAAAF8gu2STRu4evU="}
+{"messageSort":"synchCall","_parent":"AAAAAAF8gu2STRu4evU=","visibility":"public","name":"Message1","_type":"UMLMessage","_id":"AAAAAAF8gu2xnBwEiwg=","source":"AAAAAAF8gu2fEBvHtiI=","target":"AAAAAAF8gu2niRvmn6o="}
+{"messageSort":"reply","_parent":"AAAAAAF8gu2STRu4evU=","visibility":"public","name":"return","_type":"UMLMessage","_id":"AAAAAAF8gu2+xhwZsIM=","source":"AAAAAAF8gu2niRvmn6o=","target":"AAAAAAF8gu2fEBvHtiI="}
+{"messageSort":"deleteMessage","_parent":"AAAAAAF8gu2STRu4evU=","visibility":"public","name":"destroy","_type":"UMLMessage","_id":"AAAAAAF8gu4QTRxt2j8=","source":"AAAAAAF8gu2fEBvHtiI=","target":"AAAAAAF8gu2niRvmn6o="}
+{"messageSort":"synchCall","_parent":"AAAAAAF8gu2STRu4evU=","visibility":"public","name":"Message2","_type":"UMLMessage","_id":"AAAAAAF8gu4a9xyClh4=","source":"AAAAAAF8gu2fEBvHtiI=","target":"AAAAAAF8gu2niRvmn6o="}
+{"_parent":"AAAAAAF8gu2STRu4evU=","visibility":"public","name":"Lifeline1","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAF8gu2fEBvHtiI=","represent":"AAAAAAF8gu2fEBvGwwQ="}
+{"_parent":"AAAAAAF8gu2STRu4evU=","visibility":"public","name":"Lifeline2","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAF8gu2niRvmn6o=","represent":"AAAAAAF8gu2niRvl6Ao="}
+{"_parent":"AAAAAAF8gu2STRu3Nkk=","visibility":"public","name":"Role1","_type":"UMLAttribute","_id":"AAAAAAF8gu2fEBvGwwQ=","type":""}
+{"_parent":"AAAAAAF8gu2STRu3Nkk=","visibility":"public","name":"Role2","_type":"UMLAttribute","_id":"AAAAAAF8gu2niRvl6Ao=","type":""}
+END_OF_MODEL
+CLASS_COUNT

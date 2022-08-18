@@ -1,0 +1,71 @@
+{
+	"1": [
+		"2",
+		"1",
+		"Person",
+		"Tractor",
+		"Car",
+		"Car",
+		"Vehicle"
+	],
+	"2": [
+		"4",
+		"3",
+		"3",
+		"4",
+		"Goose",
+		"Fly"
+	],
+	"3": ["UMLClass", "AAAAAAF18DZ3TWqvODQ="],
+	"4": [
+		"2",
+		"Reader",
+		"Administrator",
+		"4",
+		"public",
+		"private"
+	],
+	"5": [
+		"3",
+		"4",
+		"3",
+		"4"
+	],
+	"6": [
+		"Student",
+		"Teacher",
+		"Teacher",
+		"Student",
+		"UMLAttribute"
+	],
+	"7": [
+		"AAAAAAF8Ji1OxKKZog4=",
+		"reply",
+		"Waiter",
+		"Customer",
+		"2",
+		"1"
+	],
+	"8": [
+		"AAAAAAF8J/Iu8xyM5no=",
+		"AAAAAAF8J/JOmByszSg=",
+		"UMLLifeline",
+		"AAAAAAF8J/IguBx9v0w="
+	],
+	"9": [
+		"5",
+		"State4",
+		"State0",
+		"State2,State3,State4"
+	],
+	"10": ["7", "5,6,7", "3,4"],
+	"11": [
+		"7",
+		"4",
+		"AAAAAAF8amXB0U8JsxM=",
+		"Loginfail",
+		"Login prompt",
+		"modify()"
+	],
+	"12": "State3"
+}

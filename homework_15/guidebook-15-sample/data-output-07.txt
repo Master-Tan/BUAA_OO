@@ -1,0 +1,1 @@
+Failed when check R007, a lifeline receives messages after receiving a delete message.

@@ -1,0 +1,1 @@
+Failed when check R003, class/interface (Class1, Class2, Class3) have circular inheritance.

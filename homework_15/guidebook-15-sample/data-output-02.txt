@@ -1,0 +1,1 @@
+Failed when check R002, "Attribute3" in "Class1", "Attribute3" in "Class2", "Attribute5" in "Class2" has duplicate name.
