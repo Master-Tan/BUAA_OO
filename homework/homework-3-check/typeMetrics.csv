@@ -1,0 +1,15 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT
+homework-3,expr,Basic,1,0,3,3,25,5,0,1,0.0,1,1
+homework-3,expr,Constant,1,0,2,2,9,2,0,1,0.0,0,0
+homework-3,expr,Expression,3,0,5,5,37,7,0,1,0.0,3,1
+homework-3,expr,Factor,0,0,0,0,2,0,6,0,-1.0,3,0
+homework-3,expr,Term,1,0,3,3,25,5,0,1,0.0,2,1
+homework-3,expr,TriFun,2,0,3,3,14,3,0,1,0.0,1,1
+homework-3,expr,Variable,1,0,2,2,9,2,0,1,0.0,0,0
+homework-3,(default package),Item,1,0,16,12,370,98,0,0,0.4375,0,0
+homework-3,(default package),Lexer,5,0,9,3,159,33,0,0,0.2222222222222222,0,0
+homework-3,(default package),MainClass,0,0,2,1,79,11,0,0,-1.0,0,1
+homework-3,(default package),Parser,1,0,6,6,65,12,0,0,0.0,0,5
+homework-3,(default package),SelfDefineFun,1,0,4,3,97,22,0,0,0.0,0,0
+homework-3,(default package),SumFun,0,0,2,2,65,14,0,0,-1.0,0,0
+homework-3,(default package),TriSimplify,1,0,15,3,413,97,0,0,0.4666666666666667,0,0

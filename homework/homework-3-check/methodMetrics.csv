@@ -1,0 +1,73 @@
+Project Name,Package Name,Type Name,MethodName,LOC,CC,PC
+homework-3,expr,Basic,Basic,3,1,0
+homework-3,expr,Basic,addFactor,3,1,1
+homework-3,expr,Basic,toString,16,3,0
+homework-3,expr,Constant,Constant,3,1,1
+homework-3,expr,Constant,toString,3,1,0
+homework-3,expr,Expression,Expression,4,1,0
+homework-3,expr,Expression,addTerm,3,1,1
+homework-3,expr,Expression,toString,19,3,0
+homework-3,expr,Expression,getOperators,3,1,0
+homework-3,expr,Expression,setOperators,3,1,1
+homework-3,expr,Term,Term,3,1,0
+homework-3,expr,Term,addBasic,3,1,1
+homework-3,expr,Term,toString,16,3,0
+homework-3,expr,TriFun,TriFun,4,1,1
+homework-3,expr,TriFun,addExpression,3,1,1
+homework-3,expr,TriFun,toString,3,1,0
+homework-3,expr,Variable,Variable,3,1,1
+homework-3,expr,Variable,toString,3,1,0
+homework-3,(default package),Item,Item,17,3,1
+homework-3,(default package),Item,sin,21,5,0
+homework-3,(default package),Item,cos,21,5,0
+homework-3,(default package),Item,isTerm,21,6,1
+homework-3,(default package),Item,pow,10,2,1
+homework-3,(default package),Item,mul,30,8,1
+homework-3,(default package),Item,sub,20,5,1
+homework-3,(default package),Item,add,20,5,1
+homework-3,(default package),Item,toString,34,9,0
+homework-3,(default package),Item,hashmapSort,50,9,1
+homework-3,(default package),Item,compare,44,9,2
+homework-3,(default package),Item,getUp,36,9,2
+homework-3,(default package),Item,getExpression,3,1,0
+homework-3,(default package),Item,setExpression,3,1,1
+homework-3,(default package),Item,toString1,40,11,0
+homework-3,(default package),Item,getUp1,41,10,3
+homework-3,(default package),Lexer,Lexer,6,1,1
+homework-3,(default package),Lexer,preProcess,29,7,1
+homework-3,(default package),Lexer,prepreProcess,18,5,1
+homework-3,(default package),Lexer,getConstant,9,2,1
+homework-3,(default package),Lexer,next,58,11,0
+homework-3,(default package),Lexer,nextSub,12,2,1
+homework-3,(default package),Lexer,nextAdd,12,2,1
+homework-3,(default package),Lexer,quiteZero,5,2,0
+homework-3,(default package),Lexer,peek,3,1,0
+homework-3,(default package),MainClass,main,19,2,1
+homework-3,(default package),MainClass,calculate,58,9,1
+homework-3,(default package),Parser,Parser,3,1,1
+homework-3,(default package),Parser,parseTriFun,6,1,1
+homework-3,(default package),Parser,parseExpression,10,2,0
+homework-3,(default package),Parser,parseTerm,9,2,0
+homework-3,(default package),Parser,parseBasic,9,2,0
+homework-3,(default package),Parser,parseFactor,25,4,0
+homework-3,(default package),SelfDefineFun,SelfDefineFun,3,1,0
+homework-3,(default package),SelfDefineFun,addFun,17,3,1
+homework-3,(default package),SelfDefineFun,substituteInto,56,13,1
+homework-3,(default package),SelfDefineFun,check,18,5,3
+homework-3,(default package),SumFun,SumFun,2,1,0
+homework-3,(default package),SumFun,substituteInto,61,13,1
+homework-3,(default package),TriSimplify,TriSimplify,3,1,1
+homework-3,(default package),TriSimplify,simplify,44,11,0
+homework-3,(default package),TriSimplify,getNew,11,3,1
+homework-3,(default package),TriSimplify,clean,26,7,1
+homework-3,(default package),TriSimplify,simplify3,51,11,1
+homework-3,(default package),TriSimplify,calcuate,14,3,3
+homework-3,(default package),TriSimplify,delete3,22,4,5
+homework-3,(default package),TriSimplify,rm3,11,3,2
+homework-3,(default package),TriSimplify,simplify2,42,10,1
+homework-3,(default package),TriSimplify,delete2,40,8,5
+homework-3,(default package),TriSimplify,simplify1,49,11,1
+homework-3,(default package),TriSimplify,rm,11,3,2
+homework-3,(default package),TriSimplify,delete1,36,4,4
+homework-3,(default package),TriSimplify,hashmapSort,50,9,1
+homework-3,(default package),TriSimplify,compare,44,9,2

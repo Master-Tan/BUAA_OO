@@ -1,0 +1,27 @@
+Ok, operation count of class "Class1" is 0.
+Ok, operation count of class "Class2" is 3.
+Ok, operation count of class "Class3" is 0.
+Ok, operation count of class "Class4" is 3.
+Failed, class "Class5" not found
+Ok, operation count of class "C5" is 9.
+Ok, operation count of class "Class6" is 2.
+Ok, attributes in class "Class1" has coupling degree 5.
+Ok, method "Operation1" in class "Class2" has coupling degree: 1.
+Ok, method "Operation2" in class "Class2" has coupling degree: 1, 2.
+Ok, attributes in class "Class2" has coupling degree 0.
+Ok, attributes in class "Class3" has coupling degree 2.
+Ok, attributes in class "Class4" has coupling degree 2.
+Ok, attributes in class "C5" has coupling degree 0.
+Failed, class "Class5" not found
+Ok, attributes in class "Class6" has coupling degree 0.
+Failed, class "C6" not found
+Failed, wrong type of parameters or return value in method "Operation1" of class "Class4".
+Ok, method "Operation2" in class "Class4" has coupling degree: 1, 1.
+Ok, operation visibility of method "Operation1" in class "C5" is public: 2, protected: 0, private: 1, package-private: 1.
+Ok, operation visibility of method "Operation2" in class "C5" is public: 1, protected: 1, private: 0, package-private: 0.
+Ok, operation visibility of method "Operation3" in class "C5" is public: 1, protected: 1, private: 1, package-private: 0.
+Ok, method "Operation1" in class "C5" has coupling degree: 0, 0, 0, 0.
+Ok, method "Operation2" in class "C5" has coupling degree: 0, 0.
+Ok, method "Operation3" in class "C5" has coupling degree: 0, 0, 0.
+Failed, class "C6" not found
+Failed, class "C6" not found

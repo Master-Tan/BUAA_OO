@@ -1,0 +1,276 @@
+[
+    {
+        "_type": "UMLStateMachine",
+        "_id": "AAAAAAF8fqf4QUQrih4=",
+        "_parent": {
+            "$ref": "AAAAAAFF+h6SjaM2Hec="
+        },
+        "name": "StateMachine1",
+        "regions": [
+            {
+                "_type": "UMLRegion",
+                "_id": "AAAAAAF8fqf4QUQs0Ww=",
+                "_parent": {
+                    "$ref": "AAAAAAF8fqf4QUQrih4="
+                },
+                "vertices": [
+                    {
+                        "_type": "UMLPseudostate",
+                        "_id": "AAAAAAF8fqgfdkQyvGk=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8fqf4QUQs0Ww="
+                        },
+                        "name": "NotConnected",
+                        "kind": "initial"
+                    },
+                    {
+                        "_type": "UMLState",
+                        "_id": "AAAAAAF8fqxI6ERdT4Q=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8fqf4QUQs0Ww="
+                        },
+                        "name": "Waiting"
+                    },
+                    {
+                        "_type": "UMLState",
+                        "_id": "AAAAAAF8fqyqd0SFP/c=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8fqf4QUQs0Ww="
+                        },
+                        "name": "Free"
+                    },
+                    {
+                        "_type": "UMLState",
+                        "_id": "AAAAAAF8fq0KKUSrlHQ=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8fqf4QUQs0Ww="
+                        },
+                        "name": "Working"
+                    },
+                    {
+                        "_type": "UMLState",
+                        "_id": "AAAAAAF8frBwlUTSS/Y=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8fqf4QUQs0Ww="
+                        },
+                        "name": "Standby"
+                    },
+                    {
+                        "_type": "UMLFinalState",
+                        "_id": "AAAAAAF8frDyjUU2V3g=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8fqf4QUQs0Ww="
+                        },
+                        "name": "Exit"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "_type": "UMLTransition",
+                        "_id": "AAAAAAF8frLi10VbEzo=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8fqf4QUQs0Ww="
+                        },
+                        "source": {
+                            "$ref": "AAAAAAF8fqxI6ERdT4Q="
+                        },
+                        "target": {
+                            "$ref": "AAAAAAF8fq0KKUSrlHQ="
+                        },
+                        "triggers": [
+                            {
+                                "_type": "UMLEvent",
+                                "_id": "AAAAAAF8fsgA0kZq2Z8=",
+                                "_parent": {
+                                    "$ref": "AAAAAAF8frLi10VbEzo="
+                                },
+                                "name": "Wakeup()"
+                            }
+                        ],
+                        "effects": [
+                            {
+                                "_type": "UMLOpaqueBehavior",
+                                "_id": "AAAAAAF8fsgNpEZtp4k=",
+                                "_parent": {
+                                    "$ref": "AAAAAAF8frLi10VbEzo="
+                                },
+                                "name": "Light.Working()"
+                            }
+                        ]
+                    },
+                    {
+                        "_type": "UMLTransition",
+                        "_id": "AAAAAAF8frMBckVsWe8=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8fqf4QUQs0Ww="
+                        },
+                        "source": {
+                            "$ref": "AAAAAAF8fqyqd0SFP/c="
+                        },
+                        "target": {
+                            "$ref": "AAAAAAF8fq0KKUSrlHQ="
+                        },
+                        "triggers": [
+                            {
+                                "_type": "UMLEvent",
+                                "_id": "AAAAAAF8fsXmKkZQcF4=",
+                                "_parent": {
+                                    "$ref": "AAAAAAF8frMBckVsWe8="
+                                },
+                                "name": "ManualOpen()"
+                            }
+                        ],
+                        "effects": [
+                            {
+                                "_type": "UMLOpaqueBehavior",
+                                "_id": "AAAAAAF8fsWhnUZEmyI=",
+                                "_parent": {
+                                    "$ref": "AAAAAAF8frMBckVsWe8="
+                                },
+                                "name": "Light.Working()"
+                            }
+                        ]
+                    },
+                    {
+                        "_type": "UMLTransition",
+                        "_id": "AAAAAAF8frMStUV98Gw=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8fqf4QUQs0Ww="
+                        },
+                        "source": {
+                            "$ref": "AAAAAAF8fqyqd0SFP/c="
+                        },
+                        "target": {
+                            "$ref": "AAAAAAF8fqxI6ERdT4Q="
+                        },
+                        "triggers": [
+                            {
+                                "_type": "UMLEvent",
+                                "_id": "AAAAAAF8fsOFCUYrbOY=",
+                                "_parent": {
+                                    "$ref": "AAAAAAF8frMStUV98Gw="
+                                },
+                                "name": "SetTime()"
+                            }
+                        ],
+                        "effects": [
+                            {
+                                "_type": "UMLOpaqueBehavior",
+                                "_id": "AAAAAAF8fsOrxUYvEWM=",
+                                "_parent": {
+                                    "$ref": "AAAAAAF8frMStUV98Gw="
+                                },
+                                "name": "Light.Waiting()"
+                            }
+                        ]
+                    },
+                    {
+                        "_type": "UMLTransition",
+                        "_id": "AAAAAAF8frMuW0Wfek4=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8fqf4QUQs0Ww="
+                        },
+                        "source": {
+                            "$ref": "AAAAAAF8frBwlUTSS/Y="
+                        },
+                        "target": {
+                            "$ref": "AAAAAAF8fqyqd0SFP/c="
+                        }
+                    },
+                    {
+                        "_type": "UMLTransition",
+                        "_id": "AAAAAAF8frN8ykWwlew=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8fqf4QUQs0Ww="
+                        },
+                        "source": {
+                            "$ref": "AAAAAAF8frBwlUTSS/Y="
+                        },
+                        "target": {
+                            "$ref": "AAAAAAF8frDyjUU2V3g="
+                        }
+                    },
+                    {
+                        "_type": "UMLTransition",
+                        "_id": "AAAAAAF8fr0WfEXwGkw=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8fqf4QUQs0Ww="
+                        },
+                        "source": {
+                            "$ref": "AAAAAAF8fqgfdkQyvGk="
+                        },
+                        "target": {
+                            "$ref": "AAAAAAF8frBwlUTSS/Y="
+                        },
+                        "triggers": [
+                            {
+                                "_type": "UMLEvent",
+                                "_id": "AAAAAAF8fr0om0YBgDo=",
+                                "_parent": {
+                                    "$ref": "AAAAAAF8fr0WfEXwGkw="
+                                },
+                                "name": "ShfitToSb()"
+                            }
+                        ],
+                        "effects": [
+                            {
+                                "_type": "UMLOpaqueBehavior",
+                                "_id": "AAAAAAF8fr7p7EYIjUw=",
+                                "_parent": {
+                                    "$ref": "AAAAAAF8fr0WfEXwGkw="
+                                },
+                                "name": "Light.Standby()"
+                            }
+                        ]
+                    },
+                    {
+                        "_type": "UMLTransition",
+                        "_id": "AAAAAAF8fr/hJEYXdM0=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8fqf4QUQs0Ww="
+                        },
+                        "source": {
+                            "$ref": "AAAAAAF8fq0KKUSrlHQ="
+                        },
+                        "target": {
+                            "$ref": "AAAAAAF8fqxI6ERdT4Q="
+                        },
+                        "triggers": [
+                            {
+                                "_type": "UMLEvent",
+                                "_id": "AAAAAAF8fsmqBEZ8mLA=",
+                                "_parent": {
+                                    "$ref": "AAAAAAF8fr/hJEYXdM0="
+                                },
+                                "name": "TimeisOver()"
+                            }
+                        ],
+                        "effects": [
+                            {
+                                "_type": "UMLOpaqueBehavior",
+                                "_id": "AAAAAAF8fsnQBEZ/mBY=",
+                                "_parent": {
+                                    "$ref": "AAAAAAF8fr/hJEYXdM0="
+                                },
+                                "name": "Light.Waiting()"
+                            }
+                        ]
+                    },
+                    {
+                        "_type": "UMLTransition",
+                        "_id": "AAAAAAF8fsccE0ZY4Ag=",
+                        "_parent": {
+                            "$ref": "AAAAAAF8fqf4QUQs0Ww="
+                        },
+                        "source": {
+                            "$ref": "AAAAAAF8fq0KKUSrlHQ="
+                        },
+                        "target": {
+                            "$ref": "AAAAAAF8frDyjUU2V3g="
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

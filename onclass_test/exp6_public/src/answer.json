@@ -1,0 +1,4 @@
+{
+	"1": "ensures (\\forall int i; 1 <= i && i <= size; !(\\exists int j; 0 <= j && j < objectId.size(); objectId.get(j) == elements[i].getId()) ==>  (elements[i].isReferenced())",
+	"2": "invariant (\\forall int i; 1 <= i && i <= elements.length; (((2 * i) < elements.length) ==> elements[i].compareTo(elements[2 * i]) < 0) && (((i * 2 + 1) < elements.length) ==> elements[i].compareTo(elements[i * 2 + 1]) < 0)"
+}

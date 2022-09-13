@@ -1,0 +1,17 @@
+Project Name,Package Name,Type Name,Code Smell
+homework-3,expr,Basic,Broken Hierarchy
+homework-3,expr,Constant,Unutilized Abstraction
+homework-3,expr,Constant,Broken Hierarchy
+homework-3,expr,Expression,Broken Hierarchy
+homework-3,expr,Factor,Unnecessary Abstraction
+homework-3,expr,Term,Broken Hierarchy
+homework-3,expr,TriFun,Broken Hierarchy
+homework-3,expr,Variable,Unutilized Abstraction
+homework-3,expr,Variable,Broken Hierarchy
+homework-3,(default package),Item,Unutilized Abstraction
+homework-3,(default package),Lexer,Unutilized Abstraction
+homework-3,(default package),MainClass,Unutilized Abstraction
+homework-3,(default package),Parser,Unutilized Abstraction
+homework-3,(default package),SelfDefineFun,Unutilized Abstraction
+homework-3,(default package),SumFun,Unutilized Abstraction
+homework-3,(default package),TriSimplify,Unutilized Abstraction

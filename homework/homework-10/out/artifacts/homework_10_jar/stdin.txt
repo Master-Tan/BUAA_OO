@@ -1,0 +1,5000 @@
+ap 0 0 59
+ap 1 1 183
+ap 2 2 52
+ap 3 3 133
+ap 4 4 183
+ap 5 5 110
+ap 6 6 176
+ap 7 7 22
+ap 8 8 60
+ap 9 9 137
+ap 10 10 53
+ap 11 11 103
+ap 12 12 29
+ap 13 13 48
+ap 14 14 146
+ap 15 15 86
+ap 16 16 133
+ap 17 17 83
+ap 18 18 159
+ap 19 19 176
+ap 20 20 21
+ap 21 21 194
+ap 22 22 81
+ap 23 23 186
+ap 24 24 7
+ap 25 25 45
+ap 26 26 84
+ap 27 27 154
+ap 28 28 150
+ap 29 29 108
+ap 30 30 185
+ap 31 31 129
+ap 32 32 57
+ap 33 33 24
+ap 34 34 93
+ap 35 35 115
+ap 36 36 145
+ap 37 37 92
+ap 38 38 192
+ap 39 39 139
+ap 40 40 16
+ap 41 41 129
+ap 42 42 2
+ap 43 43 71
+ap 44 44 99
+ap 45 45 83
+ap 46 46 54
+ap 47 47 100
+ap 48 48 123
+ap 49 49 193
+ap 50 50 196
+ap 51 51 177
+ap 52 52 115
+ap 53 53 29
+ap 54 54 29
+ap 55 55 71
+ap 56 56 137
+ap 57 57 53
+ap 58 58 112
+ap 59 59 94
+ap 60 60 67
+ap 61 61 65
+ap 62 62 42
+ap 63 63 180
+ap 64 64 140
+ap 65 65 34
+ap 66 66 173
+ap 67 67 85
+ap 68 68 116
+ap 69 69 79
+ap 70 70 12
+ap 71 71 132
+ap 72 72 180
+ap 73 73 59
+ap 74 74 164
+ap 75 75 163
+ap 76 76 71
+ap 77 77 178
+ap 78 78 24
+ap 79 79 161
+ap 80 80 161
+ap 81 81 17
+ap 82 82 87
+ap 83 83 47
+ap 84 84 33
+ap 85 85 158
+ap 86 86 32
+ap 87 87 155
+ap 88 88 104
+ap 89 89 41
+ap 90 90 178
+ap 91 91 15
+ap 92 92 141
+ap 93 93 144
+ap 94 94 71
+ap 95 95 43
+ap 96 96 20
+ap 97 97 9
+ap 98 98 23
+ap 99 99 87
+ap 100 100 24
+ap 101 101 164
+ap 102 102 145
+ap 103 103 78
+ap 104 104 195
+ap 105 105 147
+ap 106 106 51
+ap 107 107 100
+ap 108 108 181
+ap 109 109 93
+ap 110 110 181
+ap 111 111 181
+ap 112 112 161
+ap 113 113 162
+ap 114 114 158
+ap 115 115 124
+ap 116 116 60
+ap 117 117 59
+ap 118 118 121
+ap 119 119 168
+ap 120 120 3
+ap 121 121 135
+ap 122 122 37
+ap 123 123 111
+ap 124 124 26
+ap 125 125 127
+ap 126 126 117
+ap 127 127 86
+ap 128 128 136
+ap 129 129 175
+ap 130 130 135
+ap 131 131 149
+ap 132 132 110
+ap 133 133 38
+ap 134 134 80
+ap 135 135 176
+ap 136 136 138
+ap 137 137 35
+ap 138 138 122
+ap 139 139 197
+ap 140 140 197
+ap 141 141 62
+ap 142 142 136
+ap 143 143 29
+ap 144 144 50
+ap 145 145 94
+ap 146 146 116
+ap 147 147 176
+ap 148 148 158
+ap 149 149 48
+ap 150 150 1
+ap 151 151 22
+ap 152 152 157
+ap 153 153 53
+ap 154 154 69
+ap 155 155 17
+ap 156 156 97
+ap 157 157 136
+ap 158 158 197
+ap 159 159 8
+ap 160 160 113
+ap 161 161 108
+ap 162 162 156
+ap 163 163 183
+ap 164 164 77
+ap 165 165 123
+ap 166 166 55
+ap 167 167 41
+ap 168 168 48
+ap 169 169 108
+ap 170 170 67
+ap 171 171 193
+ap 172 172 28
+ap 173 173 44
+ap 174 174 193
+ap 175 175 3
+ap 176 176 178
+ap 177 177 98
+ap 178 178 196
+ap 179 179 91
+ap 180 180 199
+ap 181 181 180
+ap 182 182 140
+ap 183 183 184
+ap 184 184 171
+ap 185 185 55
+ap 186 186 64
+ap 187 187 143
+ap 188 188 123
+ap 189 189 47
+ap 190 190 127
+ap 191 191 62
+ap 192 192 92
+ap 193 193 58
+ap 194 194 128
+ap 195 195 25
+ap 196 196 81
+ap 197 197 175
+ap 198 198 119
+ap 199 199 35
+ap 200 200 4
+ap 201 201 183
+ap 202 202 16
+ap 203 203 27
+ap 204 204 188
+ap 205 205 106
+ap 206 206 50
+ap 207 207 57
+ap 208 208 121
+ap 209 209 19
+ap 210 210 185
+ap 211 211 193
+ap 212 212 30
+ap 213 213 154
+ap 214 214 65
+ap 215 215 48
+ap 216 216 50
+ap 217 217 114
+ap 218 218 163
+ap 219 219 134
+ap 220 220 180
+ap 221 221 101
+ap 222 222 161
+ap 223 223 199
+ap 224 224 147
+ap 225 225 81
+ap 226 226 150
+ap 227 227 116
+ap 228 228 128
+ap 229 229 197
+ap 230 230 158
+ap 231 231 45
+ap 232 232 198
+ap 233 233 88
+ap 234 234 130
+ap 235 235 7
+ap 236 236 37
+ap 237 237 167
+ap 238 238 12
+ap 239 239 6
+ap 240 240 142
+ap 241 241 121
+ap 242 242 171
+ap 243 243 186
+ap 244 244 2
+ap 245 245 7
+ap 246 246 2
+ap 247 247 188
+ap 248 248 113
+ap 249 249 143
+ap 250 250 189
+ap 251 251 118
+ap 252 252 14
+ap 253 253 123
+ap 254 254 78
+ap 255 255 21
+ap 256 256 115
+ap 257 257 38
+ap 258 258 140
+ap 259 259 154
+ap 260 260 148
+ap 261 261 164
+ap 262 262 39
+ap 263 263 150
+ap 264 264 158
+ap 265 265 142
+ap 266 266 191
+ap 267 267 111
+ap 268 268 156
+ap 269 269 98
+ap 270 270 188
+ap 271 271 104
+ap 272 272 102
+ap 273 273 13
+ap 274 274 83
+ap 275 275 165
+ap 276 276 200
+ap 277 277 154
+ap 278 278 54
+ap 279 279 192
+ap 280 280 12
+ap 281 281 19
+ap 282 282 138
+ap 283 283 38
+ap 284 284 135
+ap 285 285 92
+ap 286 286 44
+ap 287 287 11
+ap 288 288 54
+ap 289 289 3
+ap 290 290 56
+ap 291 291 79
+ap 292 292 23
+ap 293 293 61
+ap 294 294 30
+ap 295 295 122
+ap 296 296 39
+ap 297 297 14
+ap 298 298 46
+ap 299 299 56
+ap 300 300 170
+ap 301 301 76
+ap 302 302 2
+ap 303 303 33
+ap 304 304 24
+ap 305 305 187
+ap 306 306 86
+ap 307 307 198
+ap 308 308 163
+ap 309 309 102
+ap 310 310 172
+ap 311 311 150
+ap 312 312 59
+ap 313 313 185
+ap 314 314 55
+ap 315 315 11
+ap 316 316 79
+ap 317 317 198
+ap 318 318 38
+ap 319 319 156
+ap 320 320 96
+ap 321 321 48
+ap 322 322 180
+ap 323 323 153
+ap 324 324 182
+ap 325 325 183
+ap 326 326 77
+ap 327 327 136
+ap 328 328 42
+ap 329 329 95
+ap 330 330 181
+ap 331 331 50
+ap 332 332 19
+ap 333 333 28
+ap 334 334 130
+ap 335 335 6
+ap 336 336 115
+ap 337 337 147
+ap 338 338 81
+ap 339 339 82
+ap 340 340 87
+ap 341 341 197
+ap 342 342 77
+ap 343 343 188
+ap 344 344 86
+ap 345 345 64
+ap 346 346 87
+ap 347 347 72
+ap 348 348 172
+ap 349 349 71
+ap 350 350 176
+ap 351 351 59
+ap 352 352 43
+ap 353 353 66
+ap 354 354 12
+ap 355 355 18
+ap 356 356 159
+ap 357 357 131
+ap 358 358 25
+ap 359 359 162
+ap 360 360 43
+ap 361 361 86
+ap 362 362 61
+ap 363 363 112
+ap 364 364 37
+ap 365 365 161
+ap 366 366 37
+ap 367 367 179
+ap 368 368 40
+ap 369 369 12
+ap 370 370 131
+ap 371 371 111
+ap 372 372 47
+ap 373 373 154
+ap 374 374 140
+ap 375 375 160
+ap 376 376 46
+ap 377 377 61
+ap 378 378 8
+ap 379 379 55
+ap 380 380 23
+ap 381 381 169
+ap 382 382 72
+ap 383 383 90
+ap 384 384 16
+ap 385 385 184
+ap 386 386 157
+ap 387 387 69
+ap 388 388 103
+ap 389 389 123
+ap 390 390 122
+ap 391 391 147
+ap 392 392 152
+ap 393 393 156
+ap 394 394 71
+ap 395 395 117
+ap 396 396 97
+ap 397 397 82
+ap 398 398 114
+ap 399 399 40
+ap 400 400 108
+ap 401 401 147
+ap 402 402 136
+ap 403 403 87
+ap 404 404 126
+ap 405 405 173
+ap 406 406 38
+ap 407 407 33
+ap 408 408 98
+ap 409 409 89
+ap 410 410 97
+ap 411 411 137
+ap 412 412 63
+ap 413 413 116
+ap 414 414 178
+ap 415 415 144
+ap 416 416 38
+ap 417 417 166
+ap 418 418 102
+ap 419 419 13
+ap 420 420 164
+ap 421 421 161
+ap 422 422 17
+ap 423 423 121
+ap 424 424 185
+ap 425 425 11
+ap 426 426 163
+ap 427 427 111
+ap 428 428 21
+ap 429 429 109
+ap 430 430 35
+ap 431 431 46
+ap 432 432 88
+ap 433 433 156
+ap 434 434 88
+ap 435 435 18
+ap 436 436 35
+ap 437 437 36
+ap 438 438 172
+ap 439 439 87
+ap 440 440 159
+ap 441 441 56
+ap 442 442 29
+ap 443 443 178
+ap 444 444 128
+ap 445 445 112
+ap 446 446 6
+ap 447 447 107
+ap 448 448 42
+ap 449 449 37
+ap 450 450 135
+ap 451 451 146
+ap 452 452 180
+ap 453 453 15
+ap 454 454 6
+ap 455 455 160
+ap 456 456 52
+ap 457 457 170
+ap 458 458 164
+ap 459 459 21
+ap 460 460 105
+ap 461 461 41
+ap 462 462 150
+ap 463 463 19
+ap 464 464 25
+ap 465 465 187
+ap 466 466 107
+ap 467 467 145
+ap 468 468 120
+ap 469 469 83
+ap 470 470 41
+ap 471 471 94
+ap 472 472 164
+ap 473 473 67
+ap 474 474 147
+ap 475 475 51
+ap 476 476 5
+ap 477 477 86
+ap 478 478 131
+ap 479 479 112
+ap 480 480 181
+ap 481 481 131
+ap 482 482 186
+ap 483 483 36
+ap 484 484 19
+ap 485 485 196
+ap 486 486 104
+ap 487 487 87
+ap 488 488 85
+ap 489 489 46
+ap 490 490 82
+ap 491 491 90
+ap 492 492 68
+ap 493 493 139
+ap 494 494 192
+ap 495 495 121
+ap 496 496 176
+ap 497 497 160
+ap 498 498 167
+ap 499 499 121
+ap 500 500 156
+ap 501 501 114
+ap 502 502 110
+ap 503 503 87
+ap 504 504 129
+ap 505 505 188
+ap 506 506 2
+ap 507 507 102
+ap 508 508 166
+ap 509 509 160
+ap 510 510 185
+ap 511 511 78
+ap 512 512 147
+ap 513 513 156
+ap 514 514 88
+ap 515 515 36
+ap 516 516 97
+ap 517 517 200
+ap 518 518 73
+ap 519 519 167
+ap 520 520 167
+ap 521 521 135
+ap 522 522 132
+ap 523 523 12
+ap 524 524 86
+ap 525 525 143
+ap 526 526 191
+ap 527 527 196
+ap 528 528 110
+ap 529 529 187
+ap 530 530 125
+ap 531 531 38
+ap 532 532 3
+ap 533 533 2
+ap 534 534 10
+ap 535 535 164
+ap 536 536 1
+ap 537 537 16
+ap 538 538 2
+ap 539 539 180
+ap 540 540 6
+ap 541 541 3
+ap 542 542 74
+ap 543 543 118
+ap 544 544 139
+ap 545 545 58
+ap 546 546 190
+ap 547 547 81
+ap 548 548 131
+ap 549 549 74
+ap 550 550 116
+ap 551 551 114
+ap 552 552 196
+ap 553 553 37
+ap 554 554 90
+ap 555 555 198
+ap 556 556 43
+ap 557 557 191
+ap 558 558 200
+ap 559 559 151
+ap 560 560 179
+ap 561 561 68
+ap 562 562 87
+ap 563 563 79
+ap 564 564 95
+ap 565 565 129
+ap 566 566 67
+ap 567 567 162
+ap 568 568 64
+ap 569 569 173
+ap 570 570 105
+ap 571 571 33
+ap 572 572 168
+ap 573 573 165
+ap 574 574 32
+ap 575 575 142
+ap 576 576 169
+ap 577 577 32
+ap 578 578 150
+ap 579 579 150
+ap 580 580 95
+ap 581 581 190
+ap 582 582 125
+ap 583 583 34
+ap 584 584 123
+ap 585 585 156
+ap 586 586 84
+ap 587 587 88
+ap 588 588 153
+ap 589 589 192
+ap 590 590 130
+ap 591 591 13
+ap 592 592 102
+ap 593 593 189
+ap 594 594 136
+ap 595 595 56
+ap 596 596 3
+ap 597 597 104
+ap 598 598 161
+ap 599 599 191
+ap 600 600 59
+ap 601 601 200
+ap 602 602 125
+ap 603 603 34
+ap 604 604 24
+ap 605 605 127
+ap 606 606 45
+ap 607 607 68
+ap 608 608 176
+ap 609 609 28
+ap 610 610 79
+ap 611 611 36
+ap 612 612 8
+ap 613 613 72
+ap 614 614 163
+ap 615 615 94
+ap 616 616 59
+ap 617 617 33
+ap 618 618 166
+ap 619 619 193
+ap 620 620 174
+ap 621 621 150
+ap 622 622 78
+ap 623 623 25
+ap 624 624 16
+ap 625 625 107
+ap 626 626 67
+ap 627 627 75
+ap 628 628 106
+ap 629 629 30
+ap 630 630 43
+ap 631 631 43
+ap 632 632 49
+ap 633 633 37
+ap 634 634 142
+ap 635 635 163
+ap 636 636 93
+ap 637 637 17
+ap 638 638 132
+ap 639 639 23
+ap 640 640 26
+ap 641 641 144
+ap 642 642 87
+ap 643 643 122
+ap 644 644 57
+ap 645 645 115
+ap 646 646 28
+ap 647 647 85
+ap 648 648 170
+ap 649 649 11
+ap 650 650 38
+ap 651 651 54
+ap 652 652 46
+ap 653 653 137
+ap 654 654 112
+ap 655 655 98
+ap 656 656 178
+ap 657 657 176
+ap 658 658 109
+ap 659 659 15
+ap 660 660 73
+ap 661 661 13
+ap 662 662 37
+ap 663 663 52
+ap 664 664 148
+ap 665 665 6
+ap 666 666 141
+ap 667 667 177
+ap 668 668 199
+ap 669 669 114
+ap 670 670 4
+ap 671 671 45
+ap 672 672 89
+ap 673 673 191
+ap 674 674 160
+ap 675 675 94
+ap 676 676 89
+ap 677 677 85
+ap 678 678 188
+ap 679 679 37
+ap 680 680 197
+ap 681 681 161
+ap 682 682 38
+ap 683 683 16
+ap 684 684 104
+ap 685 685 151
+ap 686 686 47
+ap 687 687 84
+ap 688 688 109
+ap 689 689 161
+ap 690 690 178
+ap 691 691 137
+ap 692 692 153
+ap 693 693 152
+ap 694 694 157
+ap 695 695 182
+ap 696 696 22
+ap 697 697 64
+ap 698 698 7
+ap 699 699 19
+ap 700 700 100
+ap 701 701 58
+ap 702 702 45
+ap 703 703 109
+ap 704 704 141
+ap 705 705 64
+ap 706 706 169
+ap 707 707 22
+ap 708 708 107
+ap 709 709 78
+ap 710 710 9
+ap 711 711 110
+ap 712 712 20
+ap 713 713 154
+ap 714 714 132
+ap 715 715 92
+ap 716 716 139
+ap 717 717 78
+ap 718 718 71
+ap 719 719 171
+ap 720 720 149
+ap 721 721 105
+ap 722 722 29
+ap 723 723 10
+ap 724 724 106
+ap 725 725 111
+ap 726 726 37
+ap 727 727 139
+ap 728 728 124
+ap 729 729 1
+ap 730 730 102
+ap 731 731 174
+ap 732 732 198
+ap 733 733 178
+ap 734 734 119
+ap 735 735 16
+ap 736 736 166
+ap 737 737 187
+ap 738 738 109
+ap 739 739 99
+ap 740 740 65
+ap 741 741 182
+ap 742 742 171
+ap 743 743 99
+ap 744 744 151
+ap 745 745 157
+ap 746 746 112
+ap 747 747 189
+ap 748 748 141
+ap 749 749 70
+ap 750 750 67
+ap 751 751 98
+ap 752 752 157
+ap 753 753 129
+ap 754 754 99
+ap 755 755 131
+ap 756 756 136
+ap 757 757 59
+ap 758 758 173
+ap 759 759 47
+ap 760 760 77
+ap 761 761 173
+ap 762 762 131
+ap 763 763 20
+ap 764 764 194
+ap 765 765 22
+ap 766 766 162
+ap 767 767 16
+ap 768 768 186
+ap 769 769 197
+ap 770 770 138
+ap 771 771 149
+ap 772 772 13
+ap 773 773 185
+ap 774 774 55
+ap 775 775 173
+ap 776 776 96
+ap 777 777 29
+ap 778 778 75
+ap 779 779 140
+ap 780 780 14
+ap 781 781 124
+ap 782 782 70
+ap 783 783 165
+ap 784 784 120
+ap 785 785 84
+ap 786 786 98
+ap 787 787 95
+ap 788 788 157
+ap 789 789 144
+ap 790 790 168
+ap 791 791 117
+ap 792 792 1
+ap 793 793 153
+ap 794 794 35
+ap 795 795 166
+ap 796 796 185
+ap 797 797 61
+ap 798 798 27
+ap 799 799 179
+ap 800 800 95
+ap 801 801 24
+ap 802 802 106
+ap 803 803 138
+ap 804 804 27
+ap 805 805 96
+ap 806 806 160
+ap 807 807 128
+ap 808 808 140
+ap 809 809 157
+ap 810 810 5
+ap 811 811 156
+ap 812 812 153
+ap 813 813 138
+ap 814 814 143
+ap 815 815 57
+ap 816 816 173
+ap 817 817 37
+ap 818 818 83
+ap 819 819 190
+ap 820 820 167
+ap 821 821 175
+ap 822 822 57
+ap 823 823 8
+ap 824 824 93
+ap 825 825 115
+ap 826 826 88
+ap 827 827 165
+ap 828 828 33
+ap 829 829 29
+ap 830 830 118
+ap 831 831 55
+ap 832 832 38
+ap 833 833 65
+ap 834 834 163
+ap 835 835 79
+ap 836 836 198
+ap 837 837 113
+ap 838 838 56
+ap 839 839 5
+ap 840 840 121
+ap 841 841 187
+ap 842 842 23
+ap 843 843 96
+ap 844 844 15
+ap 845 845 87
+ap 846 846 166
+ap 847 847 124
+ap 848 848 2
+ap 849 849 44
+ap 850 850 18
+ap 851 851 196
+ap 852 852 59
+ap 853 853 194
+ap 854 854 92
+ap 855 855 98
+ap 856 856 121
+ap 857 857 28
+ap 858 858 93
+ap 859 859 136
+ap 860 860 6
+ap 861 861 34
+ap 862 862 61
+ap 863 863 63
+ap 864 864 43
+ap 865 865 22
+ap 866 866 200
+ap 867 867 20
+ap 868 868 82
+ap 869 869 54
+ap 870 870 140
+ap 871 871 96
+ap 872 872 42
+ap 873 873 115
+ap 874 874 106
+ap 875 875 26
+ap 876 876 23
+ap 877 877 44
+ap 878 878 85
+ap 879 879 142
+ap 880 880 155
+ap 881 881 192
+ap 882 882 169
+ap 883 883 21
+ap 884 884 144
+ap 885 885 57
+ap 886 886 49
+ap 887 887 110
+ap 888 888 86
+ap 889 889 90
+ap 890 890 44
+ap 891 891 123
+ap 892 892 182
+ap 893 893 160
+ap 894 894 84
+ap 895 895 187
+ap 896 896 33
+ap 897 897 189
+ap 898 898 176
+ap 899 899 9
+ap 900 900 121
+ap 901 901 43
+ap 902 902 66
+ap 903 903 194
+ap 904 904 60
+ap 905 905 93
+ap 906 906 131
+ap 907 907 148
+ap 908 908 163
+ap 909 909 67
+ap 910 910 92
+ap 911 911 25
+ap 912 912 152
+ap 913 913 52
+ap 914 914 50
+ap 915 915 169
+ap 916 916 39
+ap 917 917 68
+ap 918 918 153
+ap 919 919 17
+ap 920 920 27
+ap 921 921 32
+ap 922 922 139
+ap 923 923 153
+ap 924 924 182
+ap 925 925 30
+ap 926 926 16
+ap 927 927 138
+ap 928 928 134
+ap 929 929 145
+ap 930 930 37
+ap 931 931 33
+ap 932 932 60
+ap 933 933 2
+ap 934 934 31
+ap 935 935 115
+ap 936 936 190
+ap 937 937 107
+ap 938 938 189
+ap 939 939 36
+ap 940 940 30
+ap 941 941 88
+ap 942 942 31
+ap 943 943 119
+ap 944 944 43
+ap 945 945 114
+ap 946 946 149
+ap 947 947 41
+ap 948 948 157
+ap 949 949 138
+ap 950 950 168
+ap 951 951 168
+ap 952 952 83
+ap 953 953 89
+ap 954 954 100
+ap 955 955 2
+ap 956 956 65
+ap 957 957 46
+ap 958 958 145
+ap 959 959 13
+ap 960 960 25
+ap 961 961 67
+ap 962 962 158
+ap 963 963 183
+ap 964 964 112
+ap 965 965 36
+ap 966 966 185
+ap 967 967 130
+ap 968 968 186
+ap 969 969 62
+ap 970 970 135
+ap 971 971 83
+ap 972 972 105
+ap 973 973 104
+ap 974 974 15
+ap 975 975 188
+ap 976 976 144
+ap 977 977 187
+ap 978 978 174
+ap 979 979 114
+ap 980 980 104
+ap 981 981 51
+ap 982 982 14
+ap 983 983 162
+ap 984 984 31
+ap 985 985 163
+ap 986 986 139
+ap 987 987 85
+ap 988 988 106
+ap 989 989 19
+ap 990 990 68
+ap 991 991 137
+ap 992 992 155
+ap 993 993 4
+ap 994 994 162
+ap 995 995 72
+ap 996 996 33
+ap 997 997 111
+ap 998 998 76
+ap 999 999 78
+ap 1000 1000 129
+ap 1001 1001 10
+ap 1002 1002 180
+ap 1003 1003 132
+ap 1004 1004 123
+ap 1005 1005 112
+ap 1006 1006 119
+ap 1007 1007 152
+ap 1008 1008 7
+ap 1009 1009 112
+ap 1010 1010 56
+ap 1011 1011 26
+ap 1012 1012 68
+ap 1013 1013 81
+ap 1014 1014 27
+ap 1015 1015 65
+ap 1016 1016 12
+ap 1017 1017 154
+ap 1018 1018 156
+ap 1019 1019 126
+ap 1020 1020 130
+ap 1021 1021 61
+ap 1022 1022 82
+ap 1023 1023 121
+ap 1024 1024 127
+ap 1025 1025 185
+ap 1026 1026 85
+ap 1027 1027 176
+ap 1028 1028 105
+ap 1029 1029 159
+ap 1030 1030 113
+ap 1031 1031 1
+ap 1032 1032 132
+ap 1033 1033 86
+ap 1034 1034 67
+ap 1035 1035 22
+ap 1036 1036 150
+ap 1037 1037 100
+ap 1038 1038 177
+ap 1039 1039 64
+ap 1040 1040 84
+ap 1041 1041 118
+ap 1042 1042 186
+ap 1043 1043 176
+ap 1044 1044 55
+ap 1045 1045 3
+ap 1046 1046 109
+ap 1047 1047 78
+ap 1048 1048 17
+ap 1049 1049 64
+ap 1050 1050 186
+ap 1051 1051 93
+ap 1052 1052 134
+ap 1053 1053 122
+ap 1054 1054 196
+ap 1055 1055 152
+ap 1056 1056 141
+ap 1057 1057 181
+ap 1058 1058 196
+ap 1059 1059 121
+ap 1060 1060 166
+ap 1061 1061 33
+ap 1062 1062 185
+ap 1063 1063 158
+ap 1064 1064 198
+ap 1065 1065 161
+ap 1066 1066 121
+ap 1067 1067 118
+ap 1068 1068 185
+ap 1069 1069 174
+ap 1070 1070 182
+ap 1071 1071 5
+ap 1072 1072 62
+ap 1073 1073 66
+ap 1074 1074 51
+ap 1075 1075 135
+ap 1076 1076 155
+ap 1077 1077 141
+ap 1078 1078 159
+ap 1079 1079 20
+ap 1080 1080 17
+ap 1081 1081 138
+ap 1082 1082 158
+ap 1083 1083 94
+ap 1084 1084 169
+ap 1085 1085 14
+ap 1086 1086 139
+ap 1087 1087 118
+ap 1088 1088 18
+ap 1089 1089 121
+ap 1090 1090 198
+ap 1091 1091 168
+ap 1092 1092 168
+ap 1093 1093 1
+ap 1094 1094 193
+ap 1095 1095 128
+ap 1096 1096 130
+ap 1097 1097 171
+ap 1098 1098 147
+ap 1099 1099 32
+ap 1100 1100 55
+ap 1101 1101 170
+ap 1102 1102 121
+ap 1103 1103 191
+ap 1104 1104 21
+ap 1105 1105 197
+ap 1106 1106 140
+ap 1107 1107 158
+ap 1108 1108 35
+ap 1109 1109 187
+ap 1110 1110 84
+ap 1111 1111 91
+ag 1
+atg 0 1
+atg 1 1
+atg 2 1
+atg 3 1
+atg 4 1
+atg 5 1
+atg 6 1
+atg 7 1
+atg 8 1
+atg 9 1
+atg 10 1
+atg 11 1
+atg 12 1
+atg 13 1
+atg 14 1
+atg 15 1
+atg 16 1
+atg 17 1
+atg 18 1
+atg 19 1
+atg 20 1
+atg 21 1
+atg 22 1
+atg 23 1
+atg 24 1
+atg 25 1
+atg 26 1
+atg 27 1
+atg 28 1
+atg 29 1
+atg 30 1
+atg 31 1
+atg 32 1
+atg 33 1
+atg 34 1
+atg 35 1
+atg 36 1
+atg 37 1
+atg 38 1
+atg 39 1
+atg 40 1
+atg 41 1
+atg 42 1
+atg 43 1
+atg 44 1
+atg 45 1
+atg 46 1
+atg 47 1
+atg 48 1
+atg 49 1
+atg 50 1
+atg 51 1
+atg 52 1
+atg 53 1
+atg 54 1
+atg 55 1
+atg 56 1
+atg 57 1
+atg 58 1
+atg 59 1
+atg 60 1
+atg 61 1
+atg 62 1
+atg 63 1
+atg 64 1
+atg 65 1
+atg 66 1
+atg 67 1
+atg 68 1
+atg 69 1
+atg 70 1
+atg 71 1
+atg 72 1
+atg 73 1
+atg 74 1
+atg 75 1
+atg 76 1
+atg 77 1
+atg 78 1
+atg 79 1
+atg 80 1
+atg 81 1
+atg 82 1
+atg 83 1
+atg 84 1
+atg 85 1
+atg 86 1
+atg 87 1
+atg 88 1
+atg 89 1
+atg 90 1
+atg 91 1
+atg 92 1
+atg 93 1
+atg 94 1
+atg 95 1
+atg 96 1
+atg 97 1
+atg 98 1
+atg 99 1
+atg 100 1
+atg 101 1
+atg 102 1
+atg 103 1
+atg 104 1
+atg 105 1
+atg 106 1
+atg 107 1
+atg 108 1
+atg 109 1
+atg 110 1
+atg 111 1
+atg 112 1
+atg 113 1
+atg 114 1
+atg 115 1
+atg 116 1
+atg 117 1
+atg 118 1
+atg 119 1
+atg 120 1
+atg 121 1
+atg 122 1
+atg 123 1
+atg 124 1
+atg 125 1
+atg 126 1
+atg 127 1
+atg 128 1
+atg 129 1
+atg 130 1
+atg 131 1
+atg 132 1
+atg 133 1
+atg 134 1
+atg 135 1
+atg 136 1
+atg 137 1
+atg 138 1
+atg 139 1
+atg 140 1
+atg 141 1
+atg 142 1
+atg 143 1
+atg 144 1
+atg 145 1
+atg 146 1
+atg 147 1
+atg 148 1
+atg 149 1
+atg 150 1
+atg 151 1
+atg 152 1
+atg 153 1
+atg 154 1
+atg 155 1
+atg 156 1
+atg 157 1
+atg 158 1
+atg 159 1
+atg 160 1
+atg 161 1
+atg 162 1
+atg 163 1
+atg 164 1
+atg 165 1
+atg 166 1
+atg 167 1
+atg 168 1
+atg 169 1
+atg 170 1
+atg 171 1
+atg 172 1
+atg 173 1
+atg 174 1
+atg 175 1
+atg 176 1
+atg 177 1
+atg 178 1
+atg 179 1
+atg 180 1
+atg 181 1
+atg 182 1
+atg 183 1
+atg 184 1
+atg 185 1
+atg 186 1
+atg 187 1
+atg 188 1
+atg 189 1
+atg 190 1
+atg 191 1
+atg 192 1
+atg 193 1
+atg 194 1
+atg 195 1
+atg 196 1
+atg 197 1
+atg 198 1
+atg 199 1
+atg 200 1
+atg 201 1
+atg 202 1
+atg 203 1
+atg 204 1
+atg 205 1
+atg 206 1
+atg 207 1
+atg 208 1
+atg 209 1
+atg 210 1
+atg 211 1
+atg 212 1
+atg 213 1
+atg 214 1
+atg 215 1
+atg 216 1
+atg 217 1
+atg 218 1
+atg 219 1
+atg 220 1
+atg 221 1
+atg 222 1
+atg 223 1
+atg 224 1
+atg 225 1
+atg 226 1
+atg 227 1
+atg 228 1
+atg 229 1
+atg 230 1
+atg 231 1
+atg 232 1
+atg 233 1
+atg 234 1
+atg 235 1
+atg 236 1
+atg 237 1
+atg 238 1
+atg 239 1
+atg 240 1
+atg 241 1
+atg 242 1
+atg 243 1
+atg 244 1
+atg 245 1
+atg 246 1
+atg 247 1
+atg 248 1
+atg 249 1
+atg 250 1
+atg 251 1
+atg 252 1
+atg 253 1
+atg 254 1
+atg 255 1
+atg 256 1
+atg 257 1
+atg 258 1
+atg 259 1
+atg 260 1
+atg 261 1
+atg 262 1
+atg 263 1
+atg 264 1
+atg 265 1
+atg 266 1
+atg 267 1
+atg 268 1
+atg 269 1
+atg 270 1
+atg 271 1
+atg 272 1
+atg 273 1
+atg 274 1
+atg 275 1
+atg 276 1
+atg 277 1
+atg 278 1
+atg 279 1
+atg 280 1
+atg 281 1
+atg 282 1
+atg 283 1
+atg 284 1
+atg 285 1
+atg 286 1
+atg 287 1
+atg 288 1
+atg 289 1
+atg 290 1
+atg 291 1
+atg 292 1
+atg 293 1
+atg 294 1
+atg 295 1
+atg 296 1
+atg 297 1
+atg 298 1
+atg 299 1
+atg 300 1
+atg 301 1
+atg 302 1
+atg 303 1
+atg 304 1
+atg 305 1
+atg 306 1
+atg 307 1
+atg 308 1
+atg 309 1
+atg 310 1
+atg 311 1
+atg 312 1
+atg 313 1
+atg 314 1
+atg 315 1
+atg 316 1
+atg 317 1
+atg 318 1
+atg 319 1
+atg 320 1
+atg 321 1
+atg 322 1
+atg 323 1
+atg 324 1
+atg 325 1
+atg 326 1
+atg 327 1
+atg 328 1
+atg 329 1
+atg 330 1
+atg 331 1
+atg 332 1
+atg 333 1
+atg 334 1
+atg 335 1
+atg 336 1
+atg 337 1
+atg 338 1
+atg 339 1
+atg 340 1
+atg 341 1
+atg 342 1
+atg 343 1
+atg 344 1
+atg 345 1
+atg 346 1
+atg 347 1
+atg 348 1
+atg 349 1
+atg 350 1
+atg 351 1
+atg 352 1
+atg 353 1
+atg 354 1
+atg 355 1
+atg 356 1
+atg 357 1
+atg 358 1
+atg 359 1
+atg 360 1
+atg 361 1
+atg 362 1
+atg 363 1
+atg 364 1
+atg 365 1
+atg 366 1
+atg 367 1
+atg 368 1
+atg 369 1
+atg 370 1
+atg 371 1
+atg 372 1
+atg 373 1
+atg 374 1
+atg 375 1
+atg 376 1
+atg 377 1
+atg 378 1
+atg 379 1
+atg 380 1
+atg 381 1
+atg 382 1
+atg 383 1
+atg 384 1
+atg 385 1
+atg 386 1
+atg 387 1
+atg 388 1
+atg 389 1
+atg 390 1
+atg 391 1
+atg 392 1
+atg 393 1
+atg 394 1
+atg 395 1
+atg 396 1
+atg 397 1
+atg 398 1
+atg 399 1
+atg 400 1
+atg 401 1
+atg 402 1
+atg 403 1
+atg 404 1
+atg 405 1
+atg 406 1
+atg 407 1
+atg 408 1
+atg 409 1
+atg 410 1
+atg 411 1
+atg 412 1
+atg 413 1
+atg 414 1
+atg 415 1
+atg 416 1
+atg 417 1
+atg 418 1
+atg 419 1
+atg 420 1
+atg 421 1
+atg 422 1
+atg 423 1
+atg 424 1
+atg 425 1
+atg 426 1
+atg 427 1
+atg 428 1
+atg 429 1
+atg 430 1
+atg 431 1
+atg 432 1
+atg 433 1
+atg 434 1
+atg 435 1
+atg 436 1
+atg 437 1
+atg 438 1
+atg 439 1
+atg 440 1
+atg 441 1
+atg 442 1
+atg 443 1
+atg 444 1
+atg 445 1
+atg 446 1
+atg 447 1
+atg 448 1
+atg 449 1
+atg 450 1
+atg 451 1
+atg 452 1
+atg 453 1
+atg 454 1
+atg 455 1
+atg 456 1
+atg 457 1
+atg 458 1
+atg 459 1
+atg 460 1
+atg 461 1
+atg 462 1
+atg 463 1
+atg 464 1
+atg 465 1
+atg 466 1
+atg 467 1
+atg 468 1
+atg 469 1
+atg 470 1
+atg 471 1
+atg 472 1
+atg 473 1
+atg 474 1
+atg 475 1
+atg 476 1
+atg 477 1
+atg 478 1
+atg 479 1
+atg 480 1
+atg 481 1
+atg 482 1
+atg 483 1
+atg 484 1
+atg 485 1
+atg 486 1
+atg 487 1
+atg 488 1
+atg 489 1
+atg 490 1
+atg 491 1
+atg 492 1
+atg 493 1
+atg 494 1
+atg 495 1
+atg 496 1
+atg 497 1
+atg 498 1
+atg 499 1
+atg 500 1
+atg 501 1
+atg 502 1
+atg 503 1
+atg 504 1
+atg 505 1
+atg 506 1
+atg 507 1
+atg 508 1
+atg 509 1
+atg 510 1
+atg 511 1
+atg 512 1
+atg 513 1
+atg 514 1
+atg 515 1
+atg 516 1
+atg 517 1
+atg 518 1
+atg 519 1
+atg 520 1
+atg 521 1
+atg 522 1
+atg 523 1
+atg 524 1
+atg 525 1
+atg 526 1
+atg 527 1
+atg 528 1
+atg 529 1
+atg 530 1
+atg 531 1
+atg 532 1
+atg 533 1
+atg 534 1
+atg 535 1
+atg 536 1
+atg 537 1
+atg 538 1
+atg 539 1
+atg 540 1
+atg 541 1
+atg 542 1
+atg 543 1
+atg 544 1
+atg 545 1
+atg 546 1
+atg 547 1
+atg 548 1
+atg 549 1
+atg 550 1
+atg 551 1
+atg 552 1
+atg 553 1
+atg 554 1
+atg 555 1
+atg 556 1
+atg 557 1
+atg 558 1
+atg 559 1
+atg 560 1
+atg 561 1
+atg 562 1
+atg 563 1
+atg 564 1
+atg 565 1
+atg 566 1
+atg 567 1
+atg 568 1
+atg 569 1
+atg 570 1
+atg 571 1
+atg 572 1
+atg 573 1
+atg 574 1
+atg 575 1
+atg 576 1
+atg 577 1
+atg 578 1
+atg 579 1
+atg 580 1
+atg 581 1
+atg 582 1
+atg 583 1
+atg 584 1
+atg 585 1
+atg 586 1
+atg 587 1
+atg 588 1
+atg 589 1
+atg 590 1
+atg 591 1
+atg 592 1
+atg 593 1
+atg 594 1
+atg 595 1
+atg 596 1
+atg 597 1
+atg 598 1
+atg 599 1
+atg 600 1
+atg 601 1
+atg 602 1
+atg 603 1
+atg 604 1
+atg 605 1
+atg 606 1
+atg 607 1
+atg 608 1
+atg 609 1
+atg 610 1
+atg 611 1
+atg 612 1
+atg 613 1
+atg 614 1
+atg 615 1
+atg 616 1
+atg 617 1
+atg 618 1
+atg 619 1
+atg 620 1
+atg 621 1
+atg 622 1
+atg 623 1
+atg 624 1
+atg 625 1
+atg 626 1
+atg 627 1
+atg 628 1
+atg 629 1
+atg 630 1
+atg 631 1
+atg 632 1
+atg 633 1
+atg 634 1
+atg 635 1
+atg 636 1
+atg 637 1
+atg 638 1
+atg 639 1
+atg 640 1
+atg 641 1
+atg 642 1
+atg 643 1
+atg 644 1
+atg 645 1
+atg 646 1
+atg 647 1
+atg 648 1
+atg 649 1
+atg 650 1
+atg 651 1
+atg 652 1
+atg 653 1
+atg 654 1
+atg 655 1
+atg 656 1
+atg 657 1
+atg 658 1
+atg 659 1
+atg 660 1
+atg 661 1
+atg 662 1
+atg 663 1
+atg 664 1
+atg 665 1
+atg 666 1
+atg 667 1
+atg 668 1
+atg 669 1
+atg 670 1
+atg 671 1
+atg 672 1
+atg 673 1
+atg 674 1
+atg 675 1
+atg 676 1
+atg 677 1
+atg 678 1
+atg 679 1
+atg 680 1
+atg 681 1
+atg 682 1
+atg 683 1
+atg 684 1
+atg 685 1
+atg 686 1
+atg 687 1
+atg 688 1
+atg 689 1
+atg 690 1
+atg 691 1
+atg 692 1
+atg 693 1
+atg 694 1
+atg 695 1
+atg 696 1
+atg 697 1
+atg 698 1
+atg 699 1
+atg 700 1
+atg 701 1
+atg 702 1
+atg 703 1
+atg 704 1
+atg 705 1
+atg 706 1
+atg 707 1
+atg 708 1
+atg 709 1
+atg 710 1
+atg 711 1
+atg 712 1
+atg 713 1
+atg 714 1
+atg 715 1
+atg 716 1
+atg 717 1
+atg 718 1
+atg 719 1
+atg 720 1
+atg 721 1
+atg 722 1
+atg 723 1
+atg 724 1
+atg 725 1
+atg 726 1
+atg 727 1
+atg 728 1
+atg 729 1
+atg 730 1
+atg 731 1
+atg 732 1
+atg 733 1
+atg 734 1
+atg 735 1
+atg 736 1
+atg 737 1
+atg 738 1
+atg 739 1
+atg 740 1
+atg 741 1
+atg 742 1
+atg 743 1
+atg 744 1
+atg 745 1
+atg 746 1
+atg 747 1
+atg 748 1
+atg 749 1
+atg 750 1
+atg 751 1
+atg 752 1
+atg 753 1
+atg 754 1
+atg 755 1
+atg 756 1
+atg 757 1
+atg 758 1
+atg 759 1
+atg 760 1
+atg 761 1
+atg 762 1
+atg 763 1
+atg 764 1
+atg 765 1
+atg 766 1
+atg 767 1
+atg 768 1
+atg 769 1
+atg 770 1
+atg 771 1
+atg 772 1
+atg 773 1
+atg 774 1
+atg 775 1
+atg 776 1
+atg 777 1
+atg 778 1
+atg 779 1
+atg 780 1
+atg 781 1
+atg 782 1
+atg 783 1
+atg 784 1
+atg 785 1
+atg 786 1
+atg 787 1
+atg 788 1
+atg 789 1
+atg 790 1
+atg 791 1
+atg 792 1
+atg 793 1
+atg 794 1
+atg 795 1
+atg 796 1
+atg 797 1
+atg 798 1
+atg 799 1
+atg 800 1
+atg 801 1
+atg 802 1
+atg 803 1
+atg 804 1
+atg 805 1
+atg 806 1
+atg 807 1
+atg 808 1
+atg 809 1
+atg 810 1
+atg 811 1
+atg 812 1
+atg 813 1
+atg 814 1
+atg 815 1
+atg 816 1
+atg 817 1
+atg 818 1
+atg 819 1
+atg 820 1
+atg 821 1
+atg 822 1
+atg 823 1
+atg 824 1
+atg 825 1
+atg 826 1
+atg 827 1
+atg 828 1
+atg 829 1
+atg 830 1
+atg 831 1
+atg 832 1
+atg 833 1
+atg 834 1
+atg 835 1
+atg 836 1
+atg 837 1
+atg 838 1
+atg 839 1
+atg 840 1
+atg 841 1
+atg 842 1
+atg 843 1
+atg 844 1
+atg 845 1
+atg 846 1
+atg 847 1
+atg 848 1
+atg 849 1
+atg 850 1
+atg 851 1
+atg 852 1
+atg 853 1
+atg 854 1
+atg 855 1
+atg 856 1
+atg 857 1
+atg 858 1
+atg 859 1
+atg 860 1
+atg 861 1
+atg 862 1
+atg 863 1
+atg 864 1
+atg 865 1
+atg 866 1
+atg 867 1
+atg 868 1
+atg 869 1
+atg 870 1
+atg 871 1
+atg 872 1
+atg 873 1
+atg 874 1
+atg 875 1
+atg 876 1
+atg 877 1
+atg 878 1
+atg 879 1
+atg 880 1
+atg 881 1
+atg 882 1
+atg 883 1
+atg 884 1
+atg 885 1
+atg 886 1
+atg 887 1
+atg 888 1
+atg 889 1
+atg 890 1
+atg 891 1
+atg 892 1
+atg 893 1
+atg 894 1
+atg 895 1
+atg 896 1
+atg 897 1
+atg 898 1
+atg 899 1
+atg 900 1
+atg 901 1
+atg 902 1
+atg 903 1
+atg 904 1
+atg 905 1
+atg 906 1
+atg 907 1
+atg 908 1
+atg 909 1
+atg 910 1
+atg 911 1
+atg 912 1
+atg 913 1
+atg 914 1
+atg 915 1
+atg 916 1
+atg 917 1
+atg 918 1
+atg 919 1
+atg 920 1
+atg 921 1
+atg 922 1
+atg 923 1
+atg 924 1
+atg 925 1
+atg 926 1
+atg 927 1
+atg 928 1
+atg 929 1
+atg 930 1
+atg 931 1
+atg 932 1
+atg 933 1
+atg 934 1
+atg 935 1
+atg 936 1
+atg 937 1
+atg 938 1
+atg 939 1
+atg 940 1
+atg 941 1
+atg 942 1
+atg 943 1
+atg 944 1
+atg 945 1
+atg 946 1
+atg 947 1
+atg 948 1
+atg 949 1
+atg 950 1
+atg 951 1
+atg 952 1
+atg 953 1
+atg 954 1
+atg 955 1
+atg 956 1
+atg 957 1
+atg 958 1
+atg 959 1
+atg 960 1
+atg 961 1
+atg 962 1
+atg 963 1
+atg 964 1
+atg 965 1
+atg 966 1
+atg 967 1
+atg 968 1
+atg 969 1
+atg 970 1
+atg 971 1
+atg 972 1
+atg 973 1
+atg 974 1
+atg 975 1
+atg 976 1
+atg 977 1
+atg 978 1
+atg 979 1
+atg 980 1
+atg 981 1
+atg 982 1
+atg 983 1
+atg 984 1
+atg 985 1
+atg 986 1
+atg 987 1
+atg 988 1
+atg 989 1
+atg 990 1
+atg 991 1
+atg 992 1
+atg 993 1
+atg 994 1
+atg 995 1
+atg 996 1
+atg 997 1
+atg 998 1
+atg 999 1
+atg 1000 1
+atg 1001 1
+atg 1002 1
+atg 1003 1
+atg 1004 1
+atg 1005 1
+atg 1006 1
+atg 1007 1
+atg 1008 1
+atg 1009 1
+atg 1010 1
+atg 1011 1
+atg 1012 1
+atg 1013 1
+atg 1014 1
+atg 1015 1
+atg 1016 1
+atg 1017 1
+atg 1018 1
+atg 1019 1
+atg 1020 1
+atg 1021 1
+atg 1022 1
+atg 1023 1
+atg 1024 1
+atg 1025 1
+atg 1026 1
+atg 1027 1
+atg 1028 1
+atg 1029 1
+atg 1030 1
+atg 1031 1
+atg 1032 1
+atg 1033 1
+atg 1034 1
+atg 1035 1
+atg 1036 1
+atg 1037 1
+atg 1038 1
+atg 1039 1
+atg 1040 1
+atg 1041 1
+atg 1042 1
+atg 1043 1
+atg 1044 1
+atg 1045 1
+atg 1046 1
+atg 1047 1
+atg 1048 1
+atg 1049 1
+atg 1050 1
+atg 1051 1
+atg 1052 1
+atg 1053 1
+atg 1054 1
+atg 1055 1
+atg 1056 1
+atg 1057 1
+atg 1058 1
+atg 1059 1
+atg 1060 1
+atg 1061 1
+atg 1062 1
+atg 1063 1
+atg 1064 1
+atg 1065 1
+atg 1066 1
+atg 1067 1
+atg 1068 1
+atg 1069 1
+atg 1070 1
+atg 1071 1
+atg 1072 1
+atg 1073 1
+atg 1074 1
+atg 1075 1
+atg 1076 1
+atg 1077 1
+atg 1078 1
+atg 1079 1
+atg 1080 1
+atg 1081 1
+atg 1082 1
+atg 1083 1
+atg 1084 1
+atg 1085 1
+atg 1086 1
+atg 1087 1
+atg 1088 1
+atg 1089 1
+atg 1090 1
+atg 1091 1
+atg 1092 1
+atg 1093 1
+atg 1094 1
+atg 1095 1
+atg 1096 1
+atg 1097 1
+atg 1098 1
+atg 1099 1
+atg 1100 1
+atg 1101 1
+atg 1102 1
+atg 1103 1
+atg 1104 1
+atg 1105 1
+atg 1106 1
+atg 1107 1
+atg 1108 1
+atg 1109 1
+atg 1110 1
+atg 1111 1
+qgps 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1
+qgav 1

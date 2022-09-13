@@ -1,0 +1,16 @@
+{
+  "1": "(\\old(count) == count - 1) && (id == pathId)",
+  "2": "\\result == pList.length",
+  "3": "\\exists",
+  "4": "public exceptional_behavior",
+  "5": "path == null || !path.isValid() || !containsPath(path)",
+  "6": "throw new PathNotFoundException(path)",
+  "7": "globalNodesCount.get(node)",
+  "8": "globalNodesCount.put(node, prev - 1)",
+  "9": "\\nothing",
+  "10": "(index < 0 || index >= size())",
+  "11": "(\\exists int i; 0 <= i && i < arr.length; arr[i] == nodeId)",
+  "12": "!myIterator.next().equals(iterator.next())",
+  "13": "(size() - getDistinctNodeCount() <= 1)",
+  "14": "loopStartIndex = nodeToIndex.get(nodes.get(index))"
+}

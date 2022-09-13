@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/IdeaProjects/homework-3/src</OriginalElement>
+  <nodes>
+    <node x="797.5" y="-380.0">SelfDefineFun</node>
+    <node x="230.5" y="-751.5">expr.TriFun</node>
+    <node x="1266.0" y="-380.0">TriSimplify</node>
+    <node x="273.0" y="-1123.5">expr.Expression</node>
+    <node x="135.5" y="-380.0">Parser</node>
+    <node x="1064.0" y="-740.0">Item</node>
+    <node x="728.5" y="-740.0">expr.Variable</node>
+    <node x="926.0" y="-728.0">SumFun</node>
+    <node x="18.0" y="-786.0">Lexer</node>
+    <node x="859.0" y="-68.0">MainClass</node>
+    <node x="795.5" y="-1400.0">expr.Basic</node>
+    <node x="546.0" y="-740.0">expr.Constant</node>
+    <node x="355.5" y="-1400.0">expr.Term</node>
+    <node x="732.0" y="-1675.0">expr.Factor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="SelfDefineFun" target="SumFun" relationship="DEPENDENCY">
+      <point x="20.0" y="-40.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="MainClass" target="Lexer" relationship="CREATE">
+      <point x="40.0" y="-28.0" />
+      <point x="960.0" y="-160.0" />
+      <point x="100.0" y="-160.0" />
+      <point x="100.0" y="-260.0" />
+      <point x="80.0" y="-260.0" />
+      <point x="-20.0" y="86.0" />
+    </edge>
+    <edge source="expr.TriFun" target="expr.Expression" relationship="CREATE">
+      <point x="60.0" y="-51.5" />
+      <point x="380.0" y="-800.0" />
+      <point x="400.0" y="-800.0" />
+      <point x="400.0" y="-920.0" />
+      <point x="460.0" y="-920.0" />
+      <point x="80.0" y="63.5" />
+    </edge>
+    <edge source="expr.TriFun" target="expr.Factor" relationship="REALIZATION">
+      <point x="-80.0" y="-51.5" />
+      <point x="240.0" y="-1540.0" />
+      <point x="780.0" y="-1540.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="MainClass" target="Item" relationship="CREATE">
+      <point x="40.0" y="-28.0" />
+      <point x="960.0" y="-160.0" />
+      <point x="1180.0" y="-160.0" />
+      <point x="-100.0" y="40.0" />
+    </edge>
+    <edge source="Parser" target="expr.Constant" relationship="CREATE">
+      <point x="43.0" y="-40.0" />
+      <point x="243.0" y="-420.0" />
+      <point x="520.0" y="-420.0" />
+      <point x="520.0" y="-480.0" />
+      <point x="620.0" y="-480.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="expr.Expression" target="expr.Term" relationship="TO_MANY">
+      <point x="80.0" y="-63.5" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="MainClass" target="TriSimplify" relationship="CREATE">
+      <point x="40.0" y="-28.0" />
+      <point x="960.0" y="-160.0" />
+      <point x="1340.0" y="-160.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="MainClass" target="SelfDefineFun" relationship="CREATE">
+      <point x="40.0" y="-28.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="Parser" target="expr.Factor" relationship="DEPENDENCY">
+      <point x="0.0" y="-40.0" />
+      <point x="200.0" y="-1580.0" />
+      <point x="740.0" y="-1580.0" />
+      <point x="-40.0" y="15.0" />
+    </edge>
+    <edge source="expr.Basic" target="expr.Factor" relationship="TO_MANY">
+      <point x="-20.0" y="-40.0" />
+      <point x="880.0" y="-1560.0" />
+      <point x="820.0" y="-1560.0" />
+      <point x="40.0" y="15.0" />
+    </edge>
+    <edge source="TriSimplify" target="Item" relationship="CREATE">
+      <point x="-40.0" y="-40.0" />
+      <point x="1300.0" y="-560.0" />
+      <point x="1180.0" y="-560.0" />
+      <point x="-100.0" y="40.0" />
+    </edge>
+    <edge source="MainClass" target="expr.Expression" relationship="DEPENDENCY">
+      <point x="-27.33333333333337" y="-28.0" />
+      <point x="892.6666666666666" y="-100.0" />
+      <point x="60.0" y="-100.0" />
+      <point x="60.0" y="-180.0" />
+      <point x="20.0" y="-180.0" />
+      <point x="20.0" y="-540.0" />
+      <point x="0.0" y="-540.0" />
+      <point x="0.0" y="-920.0" />
+      <point x="308.6666666666667" y="-920.0" />
+      <point x="-71.33333333333331" y="63.5" />
+    </edge>
+    <edge source="expr.Basic" target="expr.Factor" relationship="REALIZATION">
+      <point x="-60.0" y="-40.0" />
+      <point x="840.0" y="-1540.0" />
+      <point x="780.0" y="-1540.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Parser" target="expr.TriFun" relationship="CREATE">
+      <point x="43.0" y="-40.0" />
+      <point x="243.0" y="-420.0" />
+      <point x="520.0" y="-420.0" />
+      <point x="520.0" y="-480.0" />
+      <point x="320.0" y="-480.0" />
+      <point x="0.0" y="51.5" />
+    </edge>
+    <edge source="Parser" target="expr.Variable" relationship="CREATE">
+      <point x="43.0" y="-40.0" />
+      <point x="243.0" y="-420.0" />
+      <point x="520.0" y="-420.0" />
+      <point x="520.0" y="-480.0" />
+      <point x="800.0" y="-480.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="expr.Term" target="expr.Factor" relationship="REALIZATION">
+      <point x="-60.0" y="-40.0" />
+      <point x="400.0" y="-1540.0" />
+      <point x="780.0" y="-1540.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="expr.TriFun" target="expr.Expression" relationship="TO_ONE">
+      <point x="0.0" y="-51.5" />
+      <point x="320.0" y="-920.0" />
+      <point x="380.0" y="-920.0" />
+      <point x="0.0" y="63.5" />
+    </edge>
+    <edge source="Parser" target="Lexer" relationship="TO_ONE">
+      <point x="-40.0" y="-40.0" />
+      <point x="160.0" y="-420.0" />
+      <point x="120.0" y="-420.0" />
+      <point x="20.0" y="86.0" />
+    </edge>
+    <edge source="Parser" target="expr.Term" relationship="CREATE">
+      <point x="43.0" y="-40.0" />
+      <point x="243.0" y="-420.0" />
+      <point x="520.0" y="-420.0" />
+      <point x="60.0" y="40.0" />
+    </edge>
+    <edge source="Parser" target="expr.Expression" relationship="CREATE">
+      <point x="43.0" y="-40.0" />
+      <point x="243.0" y="-420.0" />
+      <point x="520.0" y="-420.0" />
+      <point x="520.0" y="-480.0" />
+      <point x="460.0" y="-480.0" />
+      <point x="80.0" y="63.5" />
+    </edge>
+    <edge source="MainClass" target="Parser" relationship="CREATE">
+      <point x="40.0" y="-28.0" />
+      <point x="960.0" y="-160.0" />
+      <point x="200.0" y="-160.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="expr.Constant" target="expr.Factor" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="620.0" y="-1540.0" />
+      <point x="780.0" y="-1540.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Parser" target="Lexer" relationship="DEPENDENCY">
+      <point x="0.0" y="-40.0" />
+      <point x="200.0" y="-500.0" />
+      <point x="160.0" y="-500.0" />
+      <point x="60.0" y="86.0" />
+    </edge>
+    <edge source="expr.Expression" target="expr.Factor" relationship="REALIZATION">
+      <point x="-80.0" y="-63.5" />
+      <point x="300.0" y="-1540.0" />
+      <point x="780.0" y="-1540.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="expr.Expression" target="expr.Term" relationship="DEPENDENCY">
+      <point x="20.0" y="-63.5" />
+      <point x="-60.0" y="40.0" />
+    </edge>
+    <edge source="expr.Variable" target="expr.Factor" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="800.0" y="-780.0" />
+      <point x="780.0" y="-780.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="TriSimplify" target="Item" relationship="TO_ONE">
+      <point x="40.0" y="-40.0" />
+      <point x="100.0" y="40.0" />
+    </edge>
+    <edge source="MainClass" target="SumFun" relationship="DEPENDENCY">
+      <point x="-27.33333333333337" y="-28.0" />
+      <point x="892.6666666666666" y="-100.0" />
+      <point x="60.0" y="-100.0" />
+      <point x="60.0" y="-240.0" />
+      <point x="780.0" y="-240.0" />
+      <point x="780.0" y="-400.0" />
+      <point x="940.0" y="-400.0" />
+      <point x="940.0" y="-540.0" />
+      <point x="980.0" y="-540.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="expr.Term" target="expr.Factor" relationship="TO_MANY">
+      <point x="60.0" y="-40.0" />
+      <point x="520.0" y="-1560.0" />
+      <point x="820.0" y="-1560.0" />
+      <point x="40.0" y="15.0" />
+    </edge>
+    <edge source="Parser" target="expr.Basic" relationship="CREATE">
+      <point x="43.0" y="-40.0" />
+      <point x="243.0" y="-420.0" />
+      <point x="520.0" y="-420.0" />
+      <point x="520.0" y="-480.0" />
+      <point x="900.0" y="-480.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.3575062034739454" showDependencies="true" x="902.6813762450888" y="-749.3519000520562" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

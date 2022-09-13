@@ -1,0 +1,37 @@
+{
+	"1": "D",
+	"2": [
+		"DelForm",
+		"SubmitForm",
+		"public",
+		"public"
+	],
+	"3": [
+		"3",
+		"3",
+		"addCourse",
+		"delCourse",
+		"getCourses",
+		"boolean",
+		"void",
+		"int"
+	],
+	"4": "B",
+	"5": [
+		"Request",
+		"Frontend",
+		"Business",
+		"ConfirmToken",
+		"Business",
+		"Business"
+	],
+	"6": ["3", "3", "{3,9}"],
+	"7": "A",
+	"8": [
+		"NotConnected",
+		"Exit",
+		"Wakeup()",
+		"Light.Working()"
+	],
+	"9": ["5", "{Standby}"]
+}

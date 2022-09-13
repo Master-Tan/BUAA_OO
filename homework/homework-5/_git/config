@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "homework-5"]
+	url = git@gitlab.oo.buaa.edu.cn:oo_2022/homework_2022_20373864_hw_5.git
+	fetch = +refs/heads/*:refs/remotes/homework-5/*

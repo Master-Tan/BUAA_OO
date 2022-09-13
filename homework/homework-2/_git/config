@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "homework-2"]
+	url = git@gitlab.oo.buaa.edu.cn:oo_2022/homework_2022_20373864_hw_2.git
+	fetch = +refs/heads/*:refs/remotes/homework-2/*
+[branch "master"]
+	remote = homework-2
+	merge = refs/heads/master

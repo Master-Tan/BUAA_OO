@@ -1,0 +1,141 @@
+@startuml
+    'https://plantuml.com/sequence-diagram
+
+skinparam defaultFontName Consolas
+skinparam collectionsBorderColor Red
+skinparam collectionsFontSize 15
+skinparam collectionsFontColor Red
+skinparam collectionsBackgroundColor Red
+skinparam collectionsBackgroundColor APPLICATION
+
+    skinparam sequence {
+
+    ArrowColor Red
+    ActorBorderColor APPLICATION
+    LifeLineBorderColor Red
+    LifeLineBackgroundColor APPLICATION
+
+    ParticipantBorderColor Red
+    ParticipantBackgroundColor APPLICATION
+    ParticipantFontSize 15
+    ParticipantFontColor Red
+
+    }
+
+    participant "<b>MainClass</b>"
+    participant "<b>InputThread</b>"
+    participant "<b>MyRequest</b>"
+    participant "<b>Controller</b>"
+    collections "<b>RequestPool</b>"
+    collections "<b>Elevator</b>"
+    collections "<b>DecisionMaker</b>"
+    participant "<b>OutputThread</b>"
+
+
+
+
+    == Initialize ==
+
+    activate "<b>InputThread</b>"
+
+    activate "<b>OutputThread</b>"
+
+    "<b>MainClass</b>" -> "<b>InputThread</b>": start
+
+    "<b>MainClass</b>" -> "<b>Controller</b>": new
+
+    "<b>MainClass</b>" -> "<b>OutputThread</b>": initialize
+
+    "<b>Controller</b>" -> "<b>RequestPool</b>": new
+
+    activate "<b>Elevator</b>"
+
+    "<b>Controller</b>" -> "<b>Elevator</b>": new & start
+
+    "<b>Controller</b>" -> "<b>DecisionMaker</b>": new
+
+    == Add Elevator ==
+
+    "<b>InputThread</b>" -> "<b>Controller</b>": add ElevatorRequest
+
+    "<b>Controller</b>" -> "<b>RequestPool</b>": add Elevator
+
+    == Add PersonRequest ==
+
+    "<b>InputThread</b>" -> "<b>MyRequest</b>": get MyRequest
+
+    "<b>MyRequest</b>" --> "<b>InputThread</b>": new MyRequest
+
+    "<b>InputThread</b>" -> "<b>Controller</b>": add PersonRequest
+
+    "<b>Controller</b>" -> "<b>RequestPool</b>": add Person
+
+    "<b>RequestPool</b>" -> "<b>RequestPool</b>": notifElevator
+
+    == Running ==
+
+    "<b>Elevator</b>" -> "<b>DecisionMaker</b>": ask Decision
+
+    "<b>DecisionMaker</b>" -> "<b>RequestPool</b>": get AllRequest
+
+    "<b>RequestPool</b>" -> "<b>RequestPool</b>": check IsNeedWait
+
+    "<b>RequestPool</b>" --> "<b>DecisionMaker</b>": allRequest
+
+    "<b>DecisionMaker</b>" -> "<b>DecisionMaker</b>": isNeedEmptyWait
+
+    "<b>DecisionMaker</b>" -> "<b>DecisionMaker</b>": isNeedChangeDirection
+
+    "<b>DecisionMaker</b>" -> "<b>DecisionMaker</b>": getNeedPickUp
+
+    "<b>DecisionMaker</b>" -> "<b>DecisionMaker</b>": getNeedPutDown
+
+    "<b>DecisionMaker</b>" -> "<b>Elevator</b>": make Decision
+
+    "<b>Elevator</b>" -> "<b>Elevator</b>": open Door\n(if need up or down people)
+
+    "<b>Elevator</b>" -> "<b>OutputThread</b>": output To Screen
+
+    "<b>Elevator</b>" -> "<b>Elevator</b>": remove InsidePerson
+
+    "<b>Elevator</b>" -> "<b>OutputThread</b>": output To Screen
+
+    "<b>Elevator</b>" -> "<b>RequestPool</b>": add PersonRequest\n(if the outgoing people need changeFloor)
+
+    "<b>Elevator</b>" -> "<b>RequestPool</b>": remove PersonRequest\n(if needPickUp is not empty)
+
+    "<b>Elevator</b>" -> "<b>Elevator</b>": add InsidePerson
+
+    "<b>Elevator</b>" -> "<b>Elevator</b>": close Door\n(if door open)
+
+    "<b>Elevator</b>" -> "<b>OutputThread</b>": output To Screen
+
+    "<b>Elevator</b>" -> "<b>Elevator</b>": move
+
+    "<b>Elevator</b>" -> "<b>OutputThread</b>": output To Screen
+
+    == InputEnd ==
+
+    "<b>InputThread</b>" -> "<b>InputThread</b>": check IsEnd
+
+    "<b>InputThread</b>" ->x "<b>MainClass</b>": done
+
+    "<b>InputThread</b>" -> "<b>Controller</b>": close
+
+    deactivate "<b>InputThread</b>"
+
+    "<b>Controller</b>" -> "<b>RequestPool</b>": close
+
+    "<b>RequestPool</b>" -> "<b>Elevator</b>": setNeedClose
+
+    == Elevator Stop ==
+
+    "<b>Elevator</b>" -> "<b>Elevator</b>": try EndThread
+
+    deactivate "<b>Elevator</b>"
+
+    "<b>Elevator</b>" -> "<b>OutputThread</b>": endThread\n(if all elevator thread end)
+
+    deactivate "<b>OutputThread</b>"
+
+@enduml

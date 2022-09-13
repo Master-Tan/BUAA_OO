@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "exp_8"]
+	url = git@gitlab.oo.buaa.edu.cn:oo_2022/homework_2022_20373864_exp_8.git
+	fetch = +refs/heads/*:refs/remotes/exp_8/*
+[branch "master"]
+	remote = exp_8
+	merge = refs/heads/master

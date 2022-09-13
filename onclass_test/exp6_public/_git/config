@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "exp6_public"]
+	url = git@gitlab.oo.buaa.edu.cn:oo_2022/homework_2022_20373864_exp_6.git
+	fetch = +refs/heads/*:refs/remotes/exp6_public/*
+[branch "master"]
+	remote = exp6_public
+	merge = refs/heads/master

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="homework-5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/timable-output.jar!/" />
+      <root url="jar://$PROJECT_DIR$/elevator-input-1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

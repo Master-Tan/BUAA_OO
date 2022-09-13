@@ -1,0 +1,1 @@
+Failed when check R004, class/interface (Interface4) have duplicate generalizations.
